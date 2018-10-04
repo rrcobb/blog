@@ -3,7 +3,7 @@ layout: post
 title: Welcome to Trondheim
 date: 2013-01-12T18:07:00+01:00
 author: Robert Cobb
-tags: 
+tags: [Norway]
 description: My first post from Trondheim, Norway
 modified_time: '2013-01-12T18:15:32.131+01:00'
 thumbnail: http://3.bp.blogspot.com/-OCBiCekywk4/UPGaEvLP2vI/AAAAAAAAAC0/SmkR3DL-abU/s72-c/2013-01-08+12.46.00.jpg
@@ -13,7 +13,7 @@ blogger_orig_url: http://robcobblog.blogspot.com/2013/01/welcome-to-trondheim.ht
 
 Hi Everyone!
 
-I am Rob. If you are reading this, you probably already know me, how about that! 
+I am Rob. If you are reading this, you probably already know me, how about that!
 
 I am studying abroad in Trondheim, Norway this semester (January-June 2013), and I think it might be easier to keep in touch with everyone if I can update in just one place. Please contact me, either in some kind of comment or an email or on facebook, or whatever else you want! I miss home, and hearing from friends and family makes me feel great!
 

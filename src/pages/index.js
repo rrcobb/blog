@@ -3,32 +3,21 @@ import {Link, graphql} from 'gatsby';
 import get from 'lodash/get';
 import Helmet from 'react-helmet';
 
+import {Post} from '../components/helpers';
 import Layout from '../components/layout';
 import {rhythm} from '../utils/typography';
 
 class PostList extends React.Component {
   render() {
-    let {posts} = this.props;
+    // filter out pages not in /posts, (about, etc)
+    let posts =
+      this.props.posts &&
+      this.props.posts.filter(post => post.node.fields.slug.match('post'));
     return (
       <React.Fragment>
-        {posts.map(({node}) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug;
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{boxShadow: 'none'}} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{__html: node.excerpt}} />
-            </div>
-          );
-        })}
+        {posts.map(({node}) => (
+          <Post key={node.fields.slug} node={node} />
+        ))}
       </React.Fragment>
     );
   }
@@ -42,7 +31,6 @@ class BlogIndex extends React.Component {
       'props.data.site.siteMetadata.description'
     );
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
-    console.log(siteTitle, siteDescription);
 
     return (
       <Layout siteTitle={siteTitle} location={this.props.location}>
@@ -51,15 +39,12 @@ class BlogIndex extends React.Component {
           meta={[{name: 'description', content: siteDescription}]}
           title={siteTitle}
         />
+        <p>I'm Rob.</p>
         <p>
-          I'm Rob. Welcome to my site. This is the list of all the longform
-          posts. Check out link list, exercises, and small thoughts.{' '}
+          This is my site's homepage. Check out recommended posts, reviewed
+          links, exercises, and small thoughts.
         </p>
-        <p>
-          More about me: I teach at Flatiron School, which runs a software
-          developer bootcamp. Check us out if you want to learn to code (and get
-          a job!)
-        </p>
+        <p>All Posts, newest first: </p>
         <PostList posts={posts} />
       </Layout>
     );

@@ -3,8 +3,14 @@ import Theme from 'typography-theme-wordpress-kubrick';
 
 delete Theme.googleFonts;
 Theme.overrideThemeStyles = ({rhythm}, options) => ({
-  'h1,h2': {
-    borderBottom: 'none',
+  li: {
+    listStyle: 'square inside',
+  },
+  'ul li:before': {
+    content: 'none',
+  },
+  'a:visited': {
+    color: '#06c',
   },
 });
 const typography = new Typography(Theme);

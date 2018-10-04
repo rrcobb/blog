@@ -3,7 +3,7 @@ layout: post
 title: Moving in and Orientation
 date: 2013-01-30T00:46:00+01:00
 author: Robert Cobb
-tags: 
+tags: [Norway]
 description: Where I'm living, what we're doing
 modified_time: '2013-01-30T00:46:07.698+01:00'
 thumbnail: http://3.bp.blogspot.com/-sOc3c5-qxJk/UPXGPptNRzI/AAAAAAAAAIw/CTt5vZNqr08/s72-c/2013-01-11+15.09.56.jpg

@@ -4,6 +4,7 @@ import {Link, graphql} from 'gatsby';
 import get from 'lodash/get';
 
 import Layout from '../components/layout';
+import {Title, Info, FooterLinks} from '../components/helpers';
 import {rhythm, scale} from '../utils/typography';
 
 class BlogPostTemplate extends React.Component {
@@ -20,49 +21,23 @@ class BlogPostTemplate extends React.Component {
           meta={[{name: 'description', content: siteDescription}]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+        <Title>{post.frontmatter.title}</Title>
+        <Info>
+          {post.frontmatter.date} Tagged: {post.frontmatter.tags}
+        </Info>
         <div dangerouslySetInnerHTML={{__html: post.html}} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
+        <FooterLinks>
           {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
+            <Link to={previous.fields.slug} rel="prev">
+              ← {previous.frontmatter.title}
+            </Link>
           )}
-
           {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
+            <Link to={next.fields.slug} rel="next">
+              {next.frontmatter.title} →
+            </Link>
           )}
-        </ul>
+        </FooterLinks>
       </Layout>
     );
   }
@@ -85,6 +60,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }
