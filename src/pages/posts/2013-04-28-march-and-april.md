@@ -4,7 +4,7 @@ title: March and April
 date: 2013-04-29T03:30:00+02:00
 author: Robert Cobb
 description: Unfinished post about what else I was up to in Trondheim
-tags: 
+tags: []
 modified_time: '2013-04-29T03:30:20.856+02:00'
 blogger_id: tag:blogger.com,1999:blog-6563359883100010184.post-1912552859151360188
 blogger_orig_url: http://robcobblog.blogspot.com/2013/04/march-and-april.html

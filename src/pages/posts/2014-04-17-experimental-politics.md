@@ -4,16 +4,16 @@ title: Experimental politics
 description: We know how to find the right answers - science. Let's do more of that in governing.
 categories: articles
 date: 2014-04-17T01:00:00+00:00
-tags: [blog diamondback]
-keywords: 
-image: 
----  
+tags: [blog, diamondback]
+keywords:
+image:
+---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_e06fd062-c5c7-11e3-b651-001a4bcf6878.html)*
 
 >The preservation of the sacred fire of liberty, and the destiny of the republican model of government, are justly considered deeply, perhaps as finally staked, on the experiment entrusted to the hands of the American people.
 
 >George Washington, First Inaugural Address, 1789
-                        
+
 Alexis de Tocqueville is credited with the moniker *the great American experiment* for the United States. The idea of testing policies was around much earlier, but shone particularly brightly in the words and deeds of our Founding Fathers. Embedded in our federated republic is a system for testing innovative policy, seeing what works and making decisions based on evidence. Our judicial and legislative procedures revolve around hypotheses and evidence.
 
 Yet when it comes to politics, people rarely change their minds.

@@ -4,9 +4,9 @@ title: Something To Show For It
 description: Students should leave courses with something real to show
 categories: articles
 date: 2014-10-23T00:00:00+00:00
-tags: [blog diamondback]
+tags: [blog, diamondback]
 keywords: [college learning projects]
-image: 
+image:
 ---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_a913f948-5a48-11e4-8407-0017a43b2370.html)*
 

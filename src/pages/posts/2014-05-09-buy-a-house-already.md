@@ -4,10 +4,10 @@ title: Buy a house already
 description: The rent is too damn high not to
 categories: articles
 date: 2014-05-09T01:00:00+00:00
-tags: [blog diamondback]
-keywords: 
-image: 
----  
+tags: [blog, diamondback]
+keywords:
+image:
+---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_bca957cc-d6fa-11e3-9043-001a4bcf6878.html)*
 
 The rent for College Park housing is too damn high. You've heard it, you know it, and yet students persist in paying it.
@@ -24,6 +24,6 @@ Co-Op Housing University of Maryland (CHUM) is leading the charge in this effort
 
 Fraternities and sororities, despite whatever misgivings we might have about them, have also developed a good model for effective housing. It is cheaper, more community-oriented and doesn't fuel the high-rise barons. Other student groups, and students outside of groups, have rented houses together, too; it's a model that works.
 
-I want College Park to improve. That means a safer community, more community involvement, better voter turnout for local elections, a grocery store nearby and, most of all, better housing options for students. Living in houses in the community will help us get there. Whoever you are reading this, next time you are confronted with the choice of where to live, don't get suckered into the big apartment scam just because your friends are doing it. 
+I want College Park to improve. That means a safer community, more community involvement, better voter turnout for local elections, a grocery store nearby and, most of all, better housing options for students. Living in houses in the community will help us get there. Whoever you are reading this, next time you are confronted with the choice of where to live, don't get suckered into the big apartment scam just because your friends are doing it.
 
 Instead, buy or rent a house.

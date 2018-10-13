@@ -81,3 +81,36 @@ export class PostList extends React.Component {
     );
   }
 }
+
+export const Tag = ({tag}) => {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        margin: `0 ${rhythm(0.5)}`,
+        width: `max-content`,
+      }}
+    >
+      <p style={{margin: rhythm(0.25), width: rhythm(12)}}>
+        <Link to={`/tags/${tag.slug}`}>{tag.fieldValue}</Link>
+      </p>
+      <p style={{margin: rhythm(0.25), width: rhythm(8)}}>
+        Count: {tag.totalCount}
+      </p>
+    </div>
+  );
+};
+
+export class TagList extends React.Component {
+  render() {
+    let {tags} = this.props;
+    return (
+      <React.Fragment>
+        {tags.map(tag => (
+          <Tag key={tag.slug} tag={tag} />
+        ))}
+      </React.Fragment>
+    );
+  }
+}

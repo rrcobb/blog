@@ -4,9 +4,9 @@ title: Local Issues
 description: National politics are more fun to follow and debate, but local issues have more direct impact and you can do more about them
 categories: articles
 date: 2014-11-06T00:00:00+00:00
-tags: [blog diamondback]
+tags: [blog, diamondback]
 keywords: [politics local news]
-image: 
+image:
 ---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_3fa69c58-6552-11e4-b967-001a4bcf6878.html)*
 

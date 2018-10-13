@@ -4,9 +4,9 @@ title: Are we the fire nation?
 description: Long ago, the four nations lived together in harmony.
 categories: articles
 date: 2014-02-13T01:00:00+00:00
-tags: [blog diamondback]
-keywords: 
-image: 
+tags: [blog, diamondback]
+keywords:
+image:
 ---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_089b6e12-943f-11e3-9eca-001a4bcf6878.html)*
 

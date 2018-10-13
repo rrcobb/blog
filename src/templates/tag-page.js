@@ -8,13 +8,12 @@ import {PostList} from '../components/helpers';
 
 class TagPageTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     const siteDescription = get(
       this,
       'props.data.site.siteMetadata.description'
     );
-    const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    const posts = get(this, 'props.data.allMarkdownRemark.edges', []);
     const {tag} = this.props.pageContext;
 
     return (
@@ -22,10 +21,10 @@ class TagPageTemplate extends React.Component {
         <Helmet
           htmlAttributes={{lang: 'en'}}
           meta={[{name: 'description', content: siteDescription}]}
-          title={`${tag} | ${siteTitle}`}
+          title={`${tag.fieldValue} | ${siteTitle}`}
         />
         <p>
-          Posts matching tag <strong>{tag}</strong>, newest first:{' '}
+          Posts matching tag <strong>{tag.fieldValue}</strong>, newest first:
         </p>
         <PostList posts={posts} />
       </Layout>

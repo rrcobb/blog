@@ -2,12 +2,16 @@ const _ = require('lodash');
 const Promise = require('bluebird');
 const path = require('path');
 const {createFilePath} = require('gatsby-source-filesystem');
+const slugifyTag = tag => tag.replace(/[^\w]/gi, '-').toLowerCase();
 
 function createTagPages(createPage, graphql, tagPage) {
   return graphql(`
     {
       allMarkdownRemark {
-        distinct(field: frontmatter___tags)
+        group(field: frontmatter___tags) {
+          fieldValue
+          totalCount
+        }
       }
     }
   `).then(result => {
@@ -16,10 +20,14 @@ function createTagPages(createPage, graphql, tagPage) {
       reject(result.errors);
     }
 
-    const tags = result.data.allMarkdownRemark.distinct;
+    const tags = result.data.allMarkdownRemark.group.map(t => ({
+      ...t,
+      slug: slugifyTag(t.fieldValue),
+    }));
+
     _.each(tags, (tag, index) => {
       createPage({
-        path: `/tags/${tag}`,
+        path: `/tags/${tag.slug}`,
         component: tagPage,
         context: {
           tag,

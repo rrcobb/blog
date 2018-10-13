@@ -4,9 +4,9 @@ title: Conscious consumerism scales
 description: (and for most of us, traditional philanthropy doesn't)
 categories: articles
 date: 2014-05-01T01:00:00+00:00
-tags: [blog diamondback]
-keywords: 
-image: 
+tags: [blog, diamondback]
+keywords:
+image:
 ---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_91cfeeae-d0c3-11e3-83b6-001a4bcf6878.html)*
 

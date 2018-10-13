@@ -4,16 +4,16 @@ title: Midsemester Slump
 description: Short, intense classes might be better than long semesters of divided attention
 categories: articles
 date: 2013-11-21T01:48:00+00:00
-tags: [blog diamondback]
-keywords: 
-image: 
+tags: [blog, diamondback]
+keywords:
+image:
 ---
 *This post originally appeared as a column in [The Diamondback](http://www.diamondbackonline.com/opinion/article_f4b3cf78-5278-11e3-ab2b-0019bb30f31a.html)*
 
 This week is the week I hit my midsemester slump.
 
 Every semester, there comes a time when I feel drained, all of my courses seem dull, work seems rote and I barely manage to drag myself to class (much less study). I see the same drained expression on the faces of friends and classmates semester after semester, year after year.
-    
+
 Lately, I've realized this doesn't have to happen. In my own experience, I slump sometime between the excitement at the beginning of the semester and the mad rush of finals and projects at the end. There are a few weeks of dead time that hit at about week eight that aren't fun or productive. That got me thinking: What if courses were shorter?
 
 If my class ended next week, I surely wouldn't be in this slump - the motivation from exams would get me off my butt and back to the books. A 10-week semester could still cover a substantial amount of material -- maybe even the same as our 16-week one.

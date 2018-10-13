@@ -4,7 +4,7 @@ title: 'Week 1: Falling Down'
 date: 2013-01-15T23:07:00+01:00
 author: Robert Cobb
 description: Reflections on the first few days in Trondheim
-tags: 
+tags: []
 modified_time: '2013-01-16T00:22:04.793+01:00'
 thumbnail: http://1.bp.blogspot.com/-xx2f2eTnZQA/UPXS1XZCBGI/AAAAAAAAAKg/53kPHxj0KuQ/s72-c/2013-01-06+15.06.19.jpg
 blogger_id: tag:blogger.com,1999:blog-6563359883100010184.post-1370025513887341936

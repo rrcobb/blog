@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'gatsby';
-import Bio from '../components/Bio';
 import Footer from '../components/Footer';
 
 import {rhythm, scale} from '../utils/typography';
