@@ -42,7 +42,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Small Motions`,
-        short_name: `Small Motions`,
+        short_name: `Small Motion`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
