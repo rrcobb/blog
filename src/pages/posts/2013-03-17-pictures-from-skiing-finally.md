@@ -4,7 +4,7 @@ title: Pictures from Skiing! (Finally)
 date: 2013-03-17T16:10:00+01:00
 author: Robert Cobb
 description: Pictures from the ski trip to Oppdal
-tags: 
+tags: []
 modified_time: '2013-03-17T16:10:34.868+01:00'
 thumbnail: http://4.bp.blogspot.com/-VxMs8c9dQJM/USpFSZpi44I/AAAAAAAAALQ/_tkepCiUefU/s72-c/DSC_0574.JPG
 blogger_id: tag:blogger.com,1999:blog-6563359883100010184.post-2429033236042199972

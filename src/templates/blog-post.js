@@ -4,8 +4,7 @@ import {Link, graphql} from 'gatsby';
 import get from 'lodash/get';
 
 import Layout from '../components/layout';
-import {Title, Info, FooterLinks} from '../components/helpers';
-const slugifyTag = tag => tag.replace(/[^\w\s]/gi, '-');
+import {Title, Info, FooterLinks, Tag} from '../components/helpers';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -25,11 +24,7 @@ class BlogPostTemplate extends React.Component {
         <Info>{post.frontmatter.date}</Info>
         <Info>
           {post.frontmatter.tags &&
-            post.frontmatter.tags.map(t => (
-              <Link to={`/tags/${slugifyTag(t)}`} key={t}>
-                {t}
-              </Link>
-            ))}
+            post.frontmatter.tags.map(t => <Tag key={t} tag={t} />)}
         </Info>
         <div dangerouslySetInnerHTML={{__html: post.html}} />
         <FooterLinks>

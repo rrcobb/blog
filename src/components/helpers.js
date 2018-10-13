@@ -3,6 +3,24 @@ import {rhythm, scale} from '../utils/typography';
 import get from 'lodash/get';
 import {Link} from 'gatsby';
 
+export const slugifyTag = tag => tag.replace(/[^\w]/gi, '-').toLowerCase();
+
+export const Tag = ({tag}) => (
+  <Link to={`/tags/${slugifyTag(tag)}`} key={tag}>
+    <span
+      style={{
+        backgroundColor: '#c1dc95',
+        color: '#406d45',
+        padding: 5,
+        margin: 5,
+        fontFamily: 'monospace',
+      }}
+    >
+      {tag}
+    </span>
+  </Link>
+);
+
 export const Title = ({children}) => (
   <h1
     style={{
@@ -82,7 +100,7 @@ export class PostList extends React.Component {
   }
 }
 
-export const Tag = ({tag}) => {
+export const TagItem = ({tag}) => {
   return (
     <div
       style={{
@@ -108,7 +126,7 @@ export class TagList extends React.Component {
     return (
       <React.Fragment>
         {tags.map(tag => (
-          <Tag key={tag.slug} tag={tag} />
+          <TagItem key={tag.slug} tag={tag} />
         ))}
       </React.Fragment>
     );

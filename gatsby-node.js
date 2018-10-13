@@ -31,6 +31,7 @@ function createTagPages(createPage, graphql, tagPage) {
         component: tagPage,
         context: {
           tag,
+          tagValue: tag.fieldValue,
         },
       });
     });

@@ -4,7 +4,7 @@ import {graphql} from 'gatsby';
 import get from 'lodash/get';
 
 import Layout from '../components/layout';
-import {PostList} from '../components/helpers';
+import {PostList, Tag} from '../components/helpers';
 
 class TagPageTemplate extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class TagPageTemplate extends React.Component {
           title={`${tag.fieldValue} | ${siteTitle}`}
         />
         <p>
-          Posts matching tag <strong>{tag.fieldValue}</strong>, newest first:
+          Posts matching tag <Tag tag={tag.fieldValue} />, newest first:
         </p>
         <PostList posts={posts} />
       </Layout>
@@ -35,14 +35,14 @@ class TagPageTemplate extends React.Component {
 export default TagPageTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostsByTag($tag: String!) {
+  query BlogPostsByTag($tagValue: String!) {
     site {
       siteMetadata {
         title
         author
       }
     }
-    allMarkdownRemark(filter: {frontmatter: {tags: {in: [$tag]}}}) {
+    allMarkdownRemark(filter: {frontmatter: {tags: {in: [$tagValue]}}}) {
       edges {
         node {
           excerpt
