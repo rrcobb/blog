@@ -58,19 +58,26 @@ class Template extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`;
 
     return (
-      <React.Fragment>
+      <div
+        style={{
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
         <Header siteTitle={siteTitle} location={location} />
         <div
           style={{
             margin: '0 auto',
             maxWidth: rhythm(24),
             padding: `0 ${rhythm(0.5)}`,
+            flex: 1,
           }}
         >
           {children}
-          <Footer />
         </div>
-      </React.Fragment>
+        <Footer />
+      </div>
     );
   }
 }

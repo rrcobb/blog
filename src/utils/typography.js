@@ -12,6 +12,13 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   'a:visited': {
     color: '#06c',
   },
+  'li > p': {
+    marginBottom: rhythm(0.25),
+    marginTop: rhythm(0.25),
+  },
+  li: {
+    marginBottom: rhythm(0.25),
+  },
 });
 const typography = new Typography(Theme);
 

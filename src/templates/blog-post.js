@@ -5,7 +5,6 @@ import get from 'lodash/get';
 
 import Layout from '../components/layout';
 import {Title, Info, FooterLinks} from '../components/helpers';
-import {rhythm, scale} from '../utils/typography';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -22,10 +21,14 @@ class BlogPostTemplate extends React.Component {
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
         <Title>{post.frontmatter.title}</Title>
+        <Info>{post.frontmatter.date}</Info>
         <Info>
-          {post.frontmatter.date} Tagged:{' '}
           {post.frontmatter.tags &&
-            post.frontmatter.tags.map(t => <a key={t}> {t} </a>)}
+            post.frontmatter.tags.map(t => (
+              <Link to={`/tags/${t}`} key={t}>
+                {t}
+              </Link>
+            ))}
         </Info>
         <div dangerouslySetInnerHTML={{__html: post.html}} />
         <FooterLinks>

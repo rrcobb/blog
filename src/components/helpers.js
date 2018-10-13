@@ -1,7 +1,7 @@
 import React from 'react';
 import {rhythm, scale} from '../utils/typography';
 import get from 'lodash/get';
-import {Link, graphql} from 'gatsby';
+import {Link} from 'gatsby';
 
 export const Title = ({children}) => (
   <h1
@@ -58,6 +58,7 @@ export const Post = ({node}) => {
         display: 'flex',
         alignItems: 'center',
         margin: `0 ${rhythm(0.5)}`,
+        width: `max-content`,
       }}
     >
       <p style={{margin: rhythm(0.25), width: rhythm(8)}}>
@@ -67,3 +68,16 @@ export const Post = ({node}) => {
     </div>
   );
 };
+
+export class PostList extends React.Component {
+  render() {
+    let {posts} = this.props;
+    return (
+      <React.Fragment>
+        {posts.map(({node}) => (
+          <Post key={node.fields.slug} node={node} />
+        ))}
+      </React.Fragment>
+    );
+  }
+}

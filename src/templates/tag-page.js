@@ -1,54 +1,49 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import {graphql} from 'gatsby';
 import get from 'lodash/get';
-import Helmet from 'react-helmet';
 
-import {PostList} from '../components/helpers';
 import Layout from '../components/layout';
+import {PostList} from '../components/helpers';
 
-class BlogIndex extends React.Component {
+class TagPageTemplate extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title');
+    const post = this.props.data.markdownRemark;
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     const siteDescription = get(
       this,
       'props.data.site.siteMetadata.description'
     );
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    const {tag} = this.props.pageContext;
 
     return (
       <Layout siteTitle={siteTitle} location={this.props.location}>
         <Helmet
           htmlAttributes={{lang: 'en'}}
           meta={[{name: 'description', content: siteDescription}]}
-          title={siteTitle}
+          title={`${tag} | ${siteTitle}`}
         />
-        <p>I'm Rob.</p>
         <p>
-          This is my site's homepage. Check out recommended posts, reviewed
-          links, exercises, and small thoughts.
+          Posts matching tag <strong>{tag}</strong>, newest first:{' '}
         </p>
-        <p>All Posts, newest first: </p>
         <PostList posts={posts} />
       </Layout>
     );
   }
 }
 
-export default BlogIndex;
+export default TagPageTemplate;
 
 export const pageQuery = graphql`
-  query {
+  query BlogPostsByTag($tag: String!) {
     site {
       siteMetadata {
         title
-        description
+        author
       }
     }
-    allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC}
-      # filter out pages not in /posts, (about, etc)
-      filter: {fields: {slug: {regex: "/post/"}}}
-    ) {
+    allMarkdownRemark(filter: {frontmatter: {tags: {in: [$tag]}}}) {
       edges {
         node {
           excerpt
