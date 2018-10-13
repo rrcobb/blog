@@ -3,7 +3,7 @@ import Theme from 'typography-theme-wordpress-kubrick';
 
 delete Theme.googleFonts;
 Theme.overrideThemeStyles = ({rhythm}, options) => ({
-  li: {
+  'ul li': {
     listStyle: 'square inside',
   },
   'ul li:before': {
