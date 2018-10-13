@@ -24,9 +24,8 @@ class BlogPostTemplate extends React.Component {
         <Title>{post.frontmatter.title}</Title>
         <Info>
           {post.frontmatter.date} Tagged:{' '}
-          {post.frontmatter.tags.map(t => (
-            <a key={t}> {t} </a>
-          ))}
+          {post.frontmatter.tags &&
+            post.frontmatter.tags.map(t => <a key={t}> {t} </a>)}
         </Info>
         <div dangerouslySetInnerHTML={{__html: post.html}} />
         <FooterLinks>
