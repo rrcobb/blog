@@ -21,8 +21,8 @@ class BlogPostTemplate extends React.Component {
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
         <Title>{post.frontmatter.title}</Title>
-        <Info>{post.frontmatter.date}</Info>
         <Info>
+          {post.frontmatter.date}
           {post.frontmatter.tags &&
             post.frontmatter.tags.map(t => <Tag key={t} tag={t} />)}
         </Info>
@@ -60,7 +60,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMM DD, YYYY")
         tags
       }
     }

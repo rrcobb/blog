@@ -5,7 +5,7 @@ import {Link} from 'gatsby';
 
 export const slugifyTag = tag => tag.replace(/[^\w]/gi, '-').toLowerCase();
 
-export const Tag = ({tag}) => (
+export const Tag = ({tag, text}) => (
   <Link to={`/tags/${slugifyTag(tag)}`} key={tag}>
     <span
       style={{
@@ -16,7 +16,7 @@ export const Tag = ({tag}) => (
         fontFamily: 'monospace',
       }}
     >
-      {tag}
+      {text || tag}
     </span>
   </Link>
 );

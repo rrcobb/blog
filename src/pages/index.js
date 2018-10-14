@@ -3,7 +3,7 @@ import {graphql} from 'gatsby';
 import get from 'lodash/get';
 import Helmet from 'react-helmet';
 
-import {PostList} from '../components/helpers';
+import {PostList, Tag} from '../components/helpers';
 import Layout from '../components/layout';
 
 class BlogIndex extends React.Component {
@@ -24,8 +24,9 @@ class BlogIndex extends React.Component {
         />
         <p>I'm Rob.</p>
         <p>
-          This is my site's homepage. Check out recommended posts, reviewed
-          links, exercises, and small thoughts.
+          This is my site's homepage. Check out <Tag tag='recommended' />,{' '}
+          <Tag tag="review" text="reviews" />, <Tag text="exercises" tag="exercise" />, and{' '}
+          <Tag text="little thoughts" tag="tweet" />.
         </p>
         <p>All Posts, newest first: </p>
         <PostList posts={posts} />
