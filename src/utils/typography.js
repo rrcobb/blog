@@ -6,6 +6,12 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   'ul li': {
     listStyle: 'square inside',
   },
+  '.no-bullets li': {
+    listStyle: 'none',
+  },
+  '.no-bullets p, .no-bullets ul': {
+    margin: 0,
+  },
   'ul li:before': {
     content: 'none',
   },
