@@ -101,7 +101,9 @@ Like any bug investigation, I started by popping the most general-looking part o
 
 Maybe I was nervous. Maybe I had been burned by funky `$PATH` issues too many times before, and maybe it was because I had recently updated my OS to the latest version.
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">A new update was released today or so—Mojave (motto: Welcome to the Desert of the Real).</p>&mdash; Simon DeDeo (@SimonDeDeo) <a href="https://twitter.com/SimonDeDeo/status/1054168244213465089?ref_src=twsrc%5Etfw">October 22, 2018</a></blockquote>
+> A new update was released today or so—Mojave (motto: Welcome to the Desert of the Real).
+>
+> &mdash; <a href="https://twitter.com/SimonDeDeo/status/1054168244213465089?ref_src=twsrc%5Etfw">Simon DeDeo (@SimonDeDeo) October 22, 2018</a>
 
 I saw some scary stuff out there about needing to update _everything_. [Rumor had it](https://github.com/Homebrew/brew/issues/4975) that 10.14 changed the permissions in important directories, and getting everything working again might mean starting from scratch. So, instead of being patient, I started at max paranoia and (in a few tabs)
 
