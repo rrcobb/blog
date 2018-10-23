@@ -99,11 +99,11 @@ Like any bug investigation, I started by popping the most general-looking part o
 
 ### <a id="sec-1-4-1"></a>Is it my version of ruby?
 
-Maybe I was nervous. Maybe I had been burned by funky `$PATH` issues too many times before, and maybe it was because I had recently updated my OS to the latest version
+Maybe I was nervous. Maybe I had been burned by funky `$PATH` issues too many times before, and maybe it was because I had recently updated my OS to the latest version.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A new update was released today or so—Mojave (motto: Welcome to the Desert of the Real).</p>&mdash; Simon DeDeo (@SimonDeDeo) <a href="https://twitter.com/SimonDeDeo/status/1054168244213465089?ref_src=twsrc%5Etfw">October 22, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">A new update was released today or so—Mojave (motto: Welcome to the Desert of the Real).</p>&mdash; Simon DeDeo (@SimonDeDeo) <a href="https://twitter.com/SimonDeDeo/status/1054168244213465089?ref_src=twsrc%5Etfw">October 22, 2018</a></blockquote>
 
-I saw some scary crap out there about needing to update everything. Rumor had it that 10.14 changed the permissions in important directories, and getting everything working again might mean starting from scratch. So, instead of being patient, I started at max paranoia and (in a few tabs)
+I saw some scary stuff out there about needing to update _everything_. [Rumor had it](https://github.com/Homebrew/brew/issues/4975) that 10.14 changed the permissions in important directories, and getting everything working again might mean starting from scratch. So, instead of being patient, I started at max paranoia and (in a few tabs)
 
 ```
 $ brew doctor
@@ -123,13 +123,15 @@ $ rvm get head
 $ rvm list
 ```
 
+Just to get a sense of where I was, and to make sure rvm was up to date.
+
 None of these things made any difference to my error output. I was no closer! Maybe my version of ruby was somehow messed up? Try switching.
 
 ```
 $ rvm use 2.3.3
 ```
 
-No joy. Maybe having the bad version of ruby on my machine is the problem?
+No good. Maybe having the bad version of ruby on my machine is the problem?
 
 ```
 $ rvm remove 2.2.0
@@ -161,11 +163,11 @@ ERROR:  Could not find a valid gem 'bundler' (>= 0), here is why:
           Unable to download data from https://rubygems.org/ - timed out (https://api.rubygems.org/specs.4.8.gz)
 ```
 
-ugh.
+ugh. 🤦‍
 
 ### <a id="sec-1-4-2"></a>Is it SSL?
 
-After some unsuccessful messing with ruby versions, I went back to my debugging roots. Back to Google.
+After some unsuccessful messing with ruby versions, I went back to my debugging roots. Back to Google. Back home.
 
 The first few picks seemed promising:
 
@@ -186,13 +188,13 @@ Do you want to add this insecure source? [yn]  n
 
 `n` indeed. This just can't be it! I'm desperate, but I'm not _that_ desperate...yet.
 
-Wait just a minute - SSL certificates and switching from `https` to `http` are two heads of the same bug-hydra! If the problem is that my SSL certificates are wrong, I should just fix them, not switch to an insecure version of rubygems.org.
+Now wait just one minute. SSL certificates and switching from `https` to `http` are two heads of the same bug-hydra! If the problem is that my SSL certificates are wrong, I should just fix them, not switch to an insecure version of rubygems.org.
 
 ```
 $ rvm osx-ssl-certs update all
 ```
 
-Okay... no joy. Well, the bundler docs have a detailed guide on [How to troubleshoot RubyGems and Bundler TLS/SSL Issues](https://bundler.io/v1.16/guides/rubygems_tls_ssl_troubleshooting_guide.html#automated-ssl-check). Maybe I'll just follow the steps in the guide!
+Okay... still no joy. Well, the bundler docs have a detailed guide on [How to troubleshoot RubyGems and Bundler TLS/SSL Issues](https://bundler.io/v1.16/guides/rubygems_tls_ssl_troubleshooting_guide.html#automated-ssl-check). Maybe I'll just follow the steps in the guide!
 
 First, the automated SSL checker script (cool!)
 
@@ -217,12 +219,7 @@ Even worse, we're not sure why. 😕
 
 😂😂😂
 
-
-
 😭
-
-
-
 
 Okay, maybe something else is wrong about my SSL config?
 
@@ -241,24 +238,26 @@ There's a whole fascinating rabbit hole of SSL stuff that I went down - but you 
 
 But it wasn't SSL.
 
-See, the problem was that I hadn't _read my error message_ closely enough, and more importantly, I hadn't _checked that I had the same error message_ as the folks whose problems the SSL stuff was intended to solve.
+See, the problem was that I hadn't actually _read my error message_. More importantly, I hadn't _checked that I had the same error message_ as the folks whose problems the SSL stuff was intended to solve.
 
 > I hadn't checked that I had the same error message
 
-If you do check your error message carefully, the actual bug might be fixed by something dumb, like:
+If I had read the error message closely, the actual bug might be fixed by something dumb, like:
 
 ```bash
 $ gem update --system
 ```
 
-jk.
+jk, nope.
 
 ```
 ERROR:  While executing gem ... (Gem::RemoteFetcher::UnknownHostError)
     timed out (https://api.rubygems.org/latest_specs.4.8.gz)
 ```
 
-Googling _this_ error actually does come up with some helpful answers. But by this point, I wasn't sure who to trust.
+But it could happen!
+
+Googling the `Gem::RemoteFetcher::UnknownHostError` actually does come up with some helpful answers. But by this point, I wasn't sure who to trust.
 
 Helpful commenter [@WedgeSparda](https://github.com/rubygems/rubygems/issues/2253#issuecomment-381109568):
 
