@@ -514,7 +514,7 @@ System Preferences
 
 </div>
 
-![Setting IPv6 to Link-local only in the settings pane](./link-local-setting.png)
+![IPv6 Link-local in the settings pane](./link-local-setting.png)
 
 And, like magic, `gem install` works again.
 
