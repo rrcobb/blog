@@ -46,6 +46,20 @@ export const Info = ({children}) => (
   </p>
 );
 
+export const Warning = ({children}) => (
+  <div
+  style={{
+    ...scale(-1 / 5),
+    color: 'red',
+    display: 'block',
+    marginBottom: rhythm(1),
+    marginTop: rhythm(1),
+  }}
+>
+  {children}
+</div>
+)
+
 export const FooterLinks = ({children}) => (
   <React.Fragment>
     <hr

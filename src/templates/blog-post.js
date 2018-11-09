@@ -4,7 +4,7 @@ import {Link, graphql} from 'gatsby';
 import get from 'lodash/get';
 
 import Layout from '../components/layout';
-import {Title, Info, FooterLinks, Tag} from '../components/helpers';
+import {Title, Info, Warning, FooterLinks, Tag} from '../components/helpers';
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -12,6 +12,9 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     const siteDescription = post.excerpt;
     const {previous, next} = this.props.pageContext;
+
+    const date = new Date(post.frontmatter.date)
+    const isOld = new Date().getFullYear() - date.getFullYear() > 1;
 
     return (
       <Layout siteTitle={siteTitle} location={this.props.location}>
@@ -26,6 +29,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.tags &&
             post.frontmatter.tags.map(t => <Tag key={t} tag={t} />)}
         </Info>
+        { isOld ? <Warning>This post is from {post.frontmatter.date}. My views have probably changed since then. If it's about technology, any code is probably broken by this point.</Warning> : null }
         <div dangerouslySetInnerHTML={{__html: post.html}} />
         <FooterLinks>
           {previous && (
