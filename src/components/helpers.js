@@ -101,12 +101,26 @@ export const Post = ({node}) => {
   );
 };
 
+export class Foldable extends React.Component {
+  state = { show: false };
+
+  render() {
+    return <React.Fragment>
+      <span style={{ cursor: 'pointer' }} onClick={() => this.setState({ show: !this.state.show })}>
+        {this.props.label}: {this.state.show ? "Hide" : "Show"}</span>
+      <div>
+        {this.state.show ? this.props.children : null}
+      </div>
+    </React.Fragment>
+  }
+}
+
 export class PostList extends React.Component {
   render() {
-    let {posts} = this.props;
+    let { posts } = this.props;
     return (
       <React.Fragment>
-        {posts.map(({node}) => (
+        {posts.map(({ node }) => (
           <Post key={node.fields.slug} node={node} />
         ))}
       </React.Fragment>
@@ -114,7 +128,7 @@ export class PostList extends React.Component {
   }
 }
 
-export const TagItem = ({tag}) => {
+export const TagItem = ({ tag }) => {
   return (
     <div
       style={{
@@ -124,10 +138,10 @@ export const TagItem = ({tag}) => {
         width: `max-content`,
       }}
     >
-      <p style={{margin: rhythm(0.25), width: rhythm(12)}}>
+      <p style={{ margin: rhythm(0.25), width: rhythm(12) }}>
         <Link to={`/tags/${tag.slug}`}>{tag.fieldValue}</Link>
       </p>
-      <p style={{margin: rhythm(0.25), width: rhythm(8)}}>
+      <p style={{ margin: rhythm(0.25), width: rhythm(8) }}>
         Count: {tag.totalCount}
       </p>
     </div>
@@ -136,7 +150,7 @@ export const TagItem = ({tag}) => {
 
 export class TagList extends React.Component {
   render() {
-    let {tags} = this.props;
+    let { tags } = this.props;
     return (
       <React.Fragment>
         {tags.map(tag => (

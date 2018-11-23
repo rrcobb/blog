@@ -1,9 +1,10 @@
 import React from 'react';
 import {graphql} from 'gatsby';
 import get from 'lodash/get';
+import partition from 'lodash/partition'
 import Helmet from 'react-helmet';
 
-import {PostList, Tag} from '../components/helpers';
+import {PostList, Tag, Foldable} from '../components/helpers';
 import Layout from '../components/layout';
 
 class BlogIndex extends React.Component {
@@ -14,6 +15,8 @@ class BlogIndex extends React.Component {
       'props.data.site.siteMetadata.description'
     );
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    // old posts are more than 2 years old
+    const [recent, old] = partition(posts, (post) => (new Date().getFullYear() - new Date(post.node.frontmatter.date).getFullYear()) < 2 )
 
     return (
       <Layout siteTitle={siteTitle} location={this.props.location}>
@@ -28,8 +31,13 @@ class BlogIndex extends React.Component {
           <Tag tag="review" text="reviews" />, <Tag text="exercises" tag="exercise" />, and{' '}
           <Tag text="little thoughts" tag="tweet" />.
         </p>
-        <p>All Posts, newest first: </p>
-        <PostList posts={posts} />
+        <p>Posts from the last 2 years, newest first: </p>
+        <p>
+          <PostList posts={recent} />
+        </p>
+        <Foldable label="Older Posts">
+          <PostList posts={old} />
+        </Foldable>
       </Layout>
     );
   }
