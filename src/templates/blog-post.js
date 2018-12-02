@@ -14,7 +14,8 @@ class BlogPostTemplate extends React.Component {
     const {previous, next} = this.props.pageContext;
 
     const date = new Date(post.frontmatter.date)
-    const isOld = new Date().getFullYear() - date.getFullYear() > 1;
+    // posts without dates are never 'old', I guess
+    const isOld = post.frontmatter.date && new Date().getFullYear() - date.getFullYear() > 1;
 
     return (
       <Layout siteTitle={siteTitle} location={this.props.location}>
