@@ -13,7 +13,8 @@ const LINK_LIST = [
   {name: "Overreacted", url: "https://overreacted.io/"},
   {name: "Random Hacks", url: "http://www.randomhacks.net/"},
   {name: "The Little Calculist", url: "http://calculist.org/"},
-  {name: "Wilfred Hughes Blog", url: "http://www.wilfred.me.uk/"}
+  {name: "Wilfred Hughes Blog", url: "http://www.wilfred.me.uk/"},
+  {name: "Prince", url: "src/pages/posts/2018-12-03-review-blended.md"}
 ]
 
 class BlogLink extends React.Component {
