@@ -21,8 +21,12 @@ end
 puts "Tags (comma separated):"
 tags = gets.split(',').map(&:strip)
 
-puts "Where?"
+default_path = "./src/pages/posts"
+puts "Where to save it? (default #{default_path})"
 path = gets.chomp
+if path == ""
+  path = default_path
+end
 filename = "#{path}/#{date.strftime('%Y-%m-%d')}-#{title.downcase.split(/[^\w]/).reject(&:empty?).join('-')}.md"
 
 post = <<-POST

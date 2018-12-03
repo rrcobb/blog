@@ -9,6 +9,11 @@ const LINK_LIST = [
   {name: "Irrational Exuberance", url: "https://lethain.com/about/" },
   {name: "Affording Play", url: "https://mkremins.github.io/" },
   {name: "Melting Asphalt", url: "https://meltingasphalt.com/" },
+  {name: "Random Critical Analysis", url: "https://randomcriticalanalysis.com/"},
+  {name: "Overreacted", url: "https://overreacted.io/"},
+  {name: "Random Hacks", url: "http://www.randomhacks.net/"},
+  {name: "The Little Calculist", url: "http://calculist.org/"},
+  {name: "Wilfred Hughes Blog", url: "http://www.wilfred.me.uk/"}
 ]
 
 class BlogLink extends React.Component {
