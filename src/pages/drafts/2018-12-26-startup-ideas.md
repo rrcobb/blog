@@ -93,6 +93,8 @@ You should read their stuff.
 
 ### <a id="sec-5-1"></a>Software Services
 
+There are tons of tools for developers. This space is hecka crowded. Still, there's always room for a few more entrants, particularly if they focus on making services that are comprehensible.
+
 #### simple-database
 
 **TLDR;** _What if we had database-as-a-service that was as easy as the new fleet of easy deployment services?_
@@ -195,19 +197,29 @@ The analagous startup in the K-12 Education space is [Clever](https://clever.com
 
 The set of problems in healthcare are different from education, but the same kind of thinking applies - make the fractured and fractious ecosystem healthier and saner for product developers, so they can focus on helping the end user.
 
+#### AWS for distributed systems
+
+On the less-well-thought-through ideas on this shelf, but reading this [CIDR 2019 paper on problems with serverless architectures](https://arxiv.org/pdf/1812.03651.pdf) makes me wonder if there's an opportunity here. 
+
+The basic point of the paper is that a bunch of the past 40 years of good ideas from database design, distributed system design, and programming in general are mostly ignored or forgotten in 'serverless' products (AWS Lambdas in particular). If you built the platform with the right primitives and pricing structure for computing on big data, and you could sell it... 
+
+There's a lot of opportunity there.
+
 ### <a id="sec-5-2"></a>B2B
 
 #### Booking Platform for Gig-oriented Professionals
 
-Like skillshare, but not just for classes - a generalized time-booking platform
+Like Skillshare, but not just for classes - a generalized time-booking platform.
 
-There are plenty of services that do something like this, but there are enough folks who have and want to book time with each other that the needs are still underserved. It should be super easy for someone (a yogi, a caterer, a photographer, a musician) to put up times they are available to be booked for services. The booking flow should be smooth, and have time tracking and payments built-in.
+There are plenty of services that do something like this, but there are enough folks who book time with each other that their needs are still underserved. It should be _super easy_ for someone (a yogi, a caterer, a photographer, a musician) to put up times they are available, and turn that into a booking page for their potential clients. The booking flow should be smooth, and have time tracking and payments built-in.
 
-One version of this might focus on online services, and build in live chat, screensharing, video chat, recording, and streaming features. 
+As someone who has booked time with folks (dentists, plumbers, fitness instructors, chefs), the software is bad enough that sophisticated (read: I am smug) end users still end up calling on the phone instead of booking through the website.  
+
+One version of this might focus on online services. It would build in live chat, screensharing, video chat, recording, and streaming features. It would cater to youtubers, gamers, etc. who are not monetizing well enough with Twitch and Youtube, possibly because broadcast-centric platforms don't actually provide 'book a time with me' flows.
 
 #### visualize-your-business
 
-This one is actually a startup idea with a particular founder in mind. 
+This one is a startup idea with a particular founder in mind. 
 
 [Nicky Case](https://ncase.me/) builds amazing [explorable explanations](https://explorabl.es/). They are fascinating introductions to different ideas, and convey in a few fun minutes what would otherwise be impossible to convey. It's reminiscent of Bret Victor's [Media For Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/). 
 
@@ -234,45 +246,67 @@ Key features:
 
 ### <a id="sec-5-3"></a>B2C
 
-** refer-your-friends
-*** drive referrals internally
-[2018-10-25 Thu 08:36]
-*** Help you browse your list of friends
-*** message them on your platform of choice, and ask them to join your company
-*** Tool Flow
-[2018-10-27 Sat 11:58]
-**** oauth facebook, google, twitter, linked in, github, contacts, (what else?)
-**** browse / sort / filter / take notes on friends
-**** compare notes with teammates
-**** template message to send to folks
-**** text / email / messenger / twitter dm / linkedin message to get in touch
-**** import into lever / greenhouse / etc
-**** follow up to reach out / pipeline view
-*** Focus is on the -workflow tool- for inviting people to join your company
-*** Splash page:
-**** find people in your network
-**** get to work with your friends
-**** make your boss happy
-**** get that referral $$$
-**** Gif of workflow use:
-“ Hey, you hear I started at etsy? Its an amazing team. Lets get coffee and catch up, I want you work with you again! “
+#### refer-your-friends
 
-*** Money back if you don’t refer someone sucessfully
+Many companies have internal programs to incentivize recommendations. The labor market is tight, and referrals drive some huge portion of hiring. 
 
-** who-i-know
-[2018-10-24 Wed 01:42]
-*** Social graph should be useful to people
-*** driving their own understanding of their relationships and lives
-*** Currently doesn’t provide a lot of reflective ability
-*** Doesn’t lend itself to personal growth
-*** Instead $$ to big cos and advertisers
-** Washio x Uber
-[2018-11-15 Thu 08:18]
-** Dispute resolution / customer support as a service
-[2018-11-15 Thu 08:23]
-** Opportunity at the high end to build “AWS for distributed systems?”
- [2018-12-26 Wed 10:08]
- https://arxiv.org/pdf/1812.03651.pdf
+Somehow, figuring out which of my friends and acquaintances are good matches for roles within my company is a non-trivial research task. I took a few hours on Facebook and Linkedin last month searching for friends who might make good referrals to open positions where I work, but the tools felt awkward. 
+
+The right tool would:
+
+- let you sign in to all the platforms that make sense (OAuth to Facebook, Google, Twitter, Github, Linkedin, Outlook, Contacts, Gmail, Snapchat, Instagram...)
+- Load in the list of available positions at your company (and let you add more, customize, hint, etc.)
+- Help you browse your list of friends
+- Sort, filter, take notes
+- Let you message them on your platform of choice (text / email / messenger / twitter dm / linkedin message)
+- manage the conversations through different stages (catching up, letting them know about what your company is doing, seeing if they are open to opportunities, asking them to join your company)
+- manage your follow ups with some kind of pipeline view
+
+It would be awesome if it were also integrated into whatever recruiting-pipeline management software your company was already using (Greenhouse, Lever, ZipRecruiter, WorkDay...). Then you could add in team features like
+
+- compare notes with teammates
+- template message to send to folks
+- track progress through lever / greenhouse / etc
+
+For me, the big opportunity is in the _workflow tool_ for inviting people to join your company. That part is currently super annoying, and has stopped me from making all the referrals that I ought to.
+
+Some copy for the splash page:
+
+- find people in your network
+- get to work with your friends
+- make your boss happy
+- get that referral $$$
+- Gif of workflow use: _“Hey, you hear I started at etsy? Its an amazing team. Lets get coffee and catch up, I want you work with you again!“_
+
+
+The pricing could also be tied to actually successfully referring people. The money in recruiting is so good that even a piece of the referal bonus is possibly enough to build a company around.
+
+#### who-i-know
+
+Generalizing from the idea of recruiting your friends - the social graph should be useful to the people who make it up.
+
+Currently, all the various social graph apps - Facebook, Twitter, Instagram, Snapchat, Gmail, Slack, WhatsApp, WeChat - all present you with a feed of updates or messages from your friends. They give the insights about your activity to someone else - advertisers and internal product designers, mostly.
+
+Driving your own understanding of your relationships and life isn't currently something that those platforms support. Apple's new screentime feature points to a desire for more reflective ability on our technology use. Now that we can _see_ our consumption, we can reflect on it, set goals, and (hopefully) feel better in the long run.
+
+Newsfeeds don't lend themselves to personal growth.
+
+Instead, they are addictive - and big $$ for the platforms and advertisers. 
+
+This is more of a plea and less of a business idea, but I would love for these apps to give me more insight into who I hang out with, who I communicate with, and who I am. I suspect that third-party apps could take different angles on this (like the recruiting angle above) and turn them into viable businesses.
+
+#### Washio x Uber
+
+[Washio shut down](https://techcrunch.com/2016/08/30/washio-on-demand-laundry-service-shuts-down-operations/) back in 2016, but the core of the idea still seems valid. Laundry sucks. Someone else might do chores like this with greater efficiency and specialization and get some kind of benefits of scale. Or maybe there are just people who can trade their money for more time and convenience.
+
+The Instacart / Uber model for laundry seems ripe for the picking. Somebody make it!
+
+
+#### Dispute resolution / customer support as-a-service
+
+Customer support is one of the hardest things for businesses to get right, and one of the most consistently frustrating things about different companies as a user. Yet, customer service is actually pretty similar for most products - there's a support tree of various common problems, and a system for escalation when a problem is unfamiliar or a customer is particularly difficult. 
+
+Once again, this is not a new idea. There are companies that will sell this to you. Still, there are enough bad customer support experiences that it still smells like a market opportunity here.
 
 
 ** learning-kata
@@ -409,6 +443,26 @@ Logo - twitter logo with stick figure legs
 
 It's wildly fun to keep a running list of ideas. 
 
-What other groups are probably ignored by software builders?
-- freelancers of various stripes (dropshippers, podcasters, m turks, artists, instagrammers, youtubers, small time craftsfolks, authors, journalists, camgirls, drivers)
+A few themes I notice in my own ideas: 
 
+- Not being creepy
+- Making social graph data useful to the users
+- Serving new freelancers / gig-sters / entrepreneurs
+- Selling direct to employees at companies, instead of selling to the companies
+
+What other groups are probably ignored by software builders?
+
+- dropshippers
+- podcasters
+- mechanical turks
+- artists
+- instagrammers
+- youtubers
+- small time craftsfolks and artisans
+- authors
+- journalists
+- camgirls
+- drivers
+- folks in big companies
+
+Maybe software builders are ignoring you too! Building good software, it turns out, is pretty hard.
