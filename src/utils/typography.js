@@ -21,7 +21,9 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   'li > p': {
     marginBottom: rhythm(0.25),
     marginTop: rhythm(0.25),
-    display: 'inline',
+  },
+  'li > p:first-child': {
+    display: 'inline'
   },
   li: {
     marginBottom: rhythm(0.25),

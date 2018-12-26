@@ -9,36 +9,41 @@ tags: [Startups, Ideas, List]
 # Startup Ideas
 
 
-1. [Introduction](#sec-1-1)
-2. [Lists of Existing Startups](#sec-1-1)
-3. [Prior Work: Other Lists of Startup Ideas](#sec-1-2)
-3. [Mandatory Startup Reading Links](#sec-1-2)
-4. [My List of Startup Ideas](#sec-1-3)
-    a. [Software Services](#sec-1-4-1)
-    b. [B2B](#sec-1-4-2)
-    c. [B2C](#sec-1-4-3) 
-    d. [Clones](#sec-1-4-3) 
-5. [Thoughts and Notes](#sec-1-4)
+1. [Introduction](#sec-1)
+2. [Lists of Existing Startups](#sec-2)
+3. [Prior Work: Other Lists of Startup Ideas](#sec-3)
+4. [Mandatory Startup Reading Links](#sec-4)
+5. [My List of Startup Ideas](#sec-5)
 
-## Introduction
+    a. [Software Services](#sec-5-1)
 
-> Ideas are cheap, execution is everything
+    b. [B2B](#sec-5-2)
+
+    c. [B2C](#sec-5-3) 
+
+    d. [Clones](#sec-5-4) 
+
+6. [Thoughts and Notes](#sec-6)
+
+## <a id="sec-1"></a>Introduction
+
+> **Ideas are cheap, execution is everything.**
 >
-> *(attributable to [Chris Sacca](https://www.quotes.net/mquote/848858), [Casey Neistat](https://www.brainyquote.com/quotes/casey_neistat_726902) and [William Hertling](https://www.goodreads.com/quotes/7780748-ideas-are-cheap-it-is-building-them-into-profitable-companies) among others)*
+> *(attributable to [Chris Sacca](https://www.quotes.net/mquote/848858), [Casey Neistat](https://www.brainyquote.com/quotes/casey_neistat_726902) and [William Hertling](https://www.goodreads.com/quotes/7780748-ideas-are-cheap-it-is-building-them-into-profitable-companies), among others)*
 
 Nevertheless, ideas _do_ matter. For any given good idea, there are different people, organizations, and strategies that could work to turn the idea into reality. With a bad idea, though, no team will make it work.
 
-They're also fun! Thinking in terms of different market opportunities and ideas for products gives me a lens for looking at the world. 
+They're also fun! Thinking in terms of different market opportunities and ideas for products is a lens for looking at the world. 
 
-- It's an exercise in empathy for those whose needs a product idea would try to meet
-- an exercise in technical problem solving to think through what it would take to build a product, 
-- and an exercise in business modeling to think through what it would take to bring the product to market
+- It's an exercise in empathy for potential product users
+- It's an exercise in technical problem solving to think through what it would take to build a product 
+- and it's an exercise in business modeling to think through what it would take to bring a product to market
 
 I've seen some other lists like this around, and have linked them below, along with links to lists of existing startups. Handy in case you wanted to see if an idea is already out there, being implemented, or if browsing other ideas is interesting or helpful for inspiration.
 
 I'd love thoughts / feedback / criticism of my list of ideas, and would love even more if anyone would just build the products, so I could use them. If you've seen startups that are actually these ideas, send links my way!
 
-## Lists of Existing Startups
+## <a id="sec-2"></a>Lists of Existing Startups
 
 Not comprehensive, but some decent places to start:
 
@@ -49,7 +54,7 @@ Not comprehensive, but some decent places to start:
 
 There are other lists, and there are startups that aren't on any list. ¯\\\_(ツ)\_/¯ 
 
-## Prior Work: Other Lists of Startup Ideas
+## <a id="sec-3"></a> Prior Work: Other Lists of Startup Ideas
 
 Some are a little old, but these were the inspiration for me to keep a running list and to eventually write this post.
 
@@ -66,7 +71,7 @@ And some in the same vein that I found in the course of writing this post:
 * [100 Ideas For the Future of Computing](https://github.com/samsquire/ideas)
 * [awesome-app-ideas](https://github.com/tastejs/awesome-app-ideas) (in the tradition of awesome-*, a la [awesome-awesome](https://github.com/sindresorhus/awesome))
 
-## Mandatory Startup Reading Links
+## <a id="sec-4"></a> Mandatory Startup Reading Links
 
 If you are thinking about startup stuff, and haven't yet read a lot of Y Combinator / Paul Graham / Sam Altman stuff, then it's important that you do! I'm nobody - I've been on startup teams and been near startups for a little bit, but they've founded successful startups, funded successful startups, and coached hundreds of successful founders.
 
@@ -84,137 +89,150 @@ You should read their stuff.
     * [Once you have an idea](http://paulgraham.com/start.html)
     * [Marginal](http://paulgraham.com/marginal.html)
 
-## My List of Startup Ideas
+## <a id="sec-5"></a> My List of Startup Ideas
 
-### Software Services
+### <a id="sec-5-1"></a>Software Services
 
-** simple-database
-*** https://www.compose.com/ is too expensive
-*** But the tools are *almost* there (see https://github.com/vadimdemedes/pronto)
-*** firebase is too complicated
-*** Airtable / glitch / sheets are almost good enough for small data sizes
-*** Airtable has a max row count :(
-*** What if we just had cloud-easy-sqlite?
-*** and maybe lowdb in the cloud too?
-*** Options needed:
-**** SQL
-**** NoSQL
-**** Queue (memcached / redis)
-**** Text
-**** Assets
-**** Searchable index
-*** potential backends
-[2018-12-02 Sun 19:55]
-**** Airtable
-**** Glitch
-**** Sheets
-**** Aws / azure / heroku / google cloud
-**** Github
-**** Gmail
-**** Dropbox
-**** Some kind of blockchain, bc why not
-*** Easy in, easy out
-**** for data
-**** for entering / leaving the platform
-**** E-I-E-I-O
-*** Names:
-**** save data
-**** pc (like cp, but persist-cloud)
-**** 'save' or 'data'
-**** 'forever' (like now, but for data)
+#### simple-database
 
-** not-google-analytics.com
-[2018-10-27 Sat 16:00]
-- Easy to install analytics platform
-- for a dollar / month
-- No reselling of the data we collect from customers
-- make the trade off explicit: not as comprehensive as google but also, not as creepy
+**TLDR;** _What if we had database-as-a-service that was as easy as the new fleet of easy deployment services?_
+
+There's a heap of ways to deploy applications these days, and they are _stupidly easy_. I use [Zeit.co's Now](https://zeit.co/now) for this site. [Heroku](), [Surge](), [Netlify](), and [Github Pages]() all make getting a website up so easy that you can  deploy _whimsically_. [Glitch](https://medium.com/glitch/add-a-custom-domain-to-your-glitch-project-9a455eab2baf), [Repl.it](https://repl.it/site/blog/deploy), and [Codepen](https://blog.codepen.io/projects/project-deployment/) all let you do the same thing from their online editors. If you haven't made a website today, you should. Take you all of 10 minutes, and you'll have a site built with real code that someone else can visit on their phone.
+
+But what if you want a database? Getting a static site is nice, and getting a backend up and running is awesome, but if you want to build a 'real' application, you want to be able to store data. 
+
+Admittedly, Heroku actually bundles this service in, so the landscape isn't totally deserted. You'd think that Firebase would make this easy, but it's actually super intimidating to get a project started there, because the platform is such a behemoth and just getting a handle on what they even offer is a slog.
+
+[Compose](https://www.compose.com/) is the closest thing I've seen to this, but it's too expensive - the key to heroku, surge, now, gh pages, netlify are the _free tier_. Compose lacks that, and is way more expensive than using a cloud database provider. But the tools are *almost* there - see [pronto](https://github.com/vadimdemedes/pronto), which is almost as easy as deploying a static site. *Almost*.
+
+Other thoughts, notes, and noteworthy technologies in the easily-storing-data space:
+
+* [Airtable](https://airtable.com) and Google Sheets are almost good enough (for small data sizes)
+    * Airtable has a max row count at the free tier, and is rate-limited
+    * Google Sheets API is too complicated to base your whole application logic around
+    * Both lock you in - you can't write SQL and change your database layer afterwards
+* [LowDB](https://github.com/typicode/lowdb) and [json-server](https://github.com/typicode/json-server) are _amazing_ for speedy local data development and prototyping
+* [SQLite](https://www.sqlite.org/index.html) is similarly awesome, if older, and then your app is using real SQL, so you could swap in some other database if you get big enough to warrant it
+* [Typeform](https://www.typeform.com/) is amazing for creating fast, full, good-looking 'applications' without code
+ 
+My ideal service would basically be SQLite / lowdb in the cloud. CLI for deploying and configuring the schema would be the key focus, and a web portal for browsing the data would be nice. Docs would have to be dead-simple and top-notch. 
+
+_Hypothesis: good docs why businesses like Heroku and Digital Ocean exist simultaneously with cheaper and more fully-featured alternatives (AWS, Google Cloud, Azure)._
+
+A small and potentially incomplete list of _kinds of datastores_ that a service could support - almost like a list of features:
+
+* SQL
+* NoSQL
+* Queue (memcached / redis)
+* Searchable index
+* Text (think blog posts)
+* Static Assets (Images, Video, CDN-cacheable resources)
+
+It would be _neat_ but not necessary, if it hooked into different kinds of backing stores, and I could make the data go between different places:
+* Airtable
+* Glitch
+* Sheets
+* Aws / azure / heroku / google cloud
+* Github
+* Gmail
+* Dropbox
+
+_\<irony\>Maybe it should be on a blockchain. That'll help everything\</irony\>_
+
+#### not-google-analytics
+
+Google Analytics is an awesome tool for webmasters. Problem is, it's hella creepy. You add 3rd-party javascript to your page, in order for Google to track all of your customers. 👀
+
+_Side Note: Be wary of any big company giving you anything for free. Of course Google can track when folks load fonts from Google Fonts. That's why they built the amazing tool in the first place, so people would use it!_
+
+So, this idea is basically to clone Google's awesome analytics platform, but just not be creepy.
+
+- Easy to install
+- $1 / month
+- No reselling of the data collected from customers
+- Make the trade-off explicit: not as comprehensive as google, but also, not as creepy
 - Designed for small sites (anything less than 1 million visitors a day)
-- transparent about how it works / what it does
-- simple, small set of features (no bloat)
-- helps you make decisions about what is working and what isn’t re: your website
+- Transparent about how it works and what it does
+- Simple, small set of features (no bloat)
+- Helps you make decisions about what is working and what isn’t re: your website
 
-** simple-email-metrics
-[2018-10-27 Sat 11:40]
-Uncreepy email opens tracker
-How many folks opened which email?
-Transparent about how it works / what is and isn’t collected
-Easy to set up / easy to use
-$1 / month
+The domain name is [available](https://instantdomainsearch.com/#search=not-google-analytics).
 
-Data is portable
-If you want to get it into another system, its easy
-*** Chrome read receipts
-**** Email Opens Radar
-**** Tracking pixel system
-chrome ext
-server
+#### simple-email-metrics
 
+In the same vein as not-google-analytics: An uncreepy email opens tracker.
 
-possible architectures:
-backend
-sinatra / sqlite
-nginx logs / something that parses them (clojure?!?)
+In lots of email-centric jobs, you always want to know _'how many folks opened this email?'_ There are tools like this built into a few different plugins and mail sending services. It's not a new technology.
 
+Key features: 
 
-frontend 
-chrome ext (js / typescript / clojurescript)
+- Transparent about how it works, especially what is and isn’t collected
+- Easy to set up, easy to use
+- $1 / month
+- Data is portable (If you want to get it into another system, its easy)
 
-requests:
-new tracking pixel
-stats about some email
-get image (and log access)
+Product:
+- Gmail read receipts
+- Email Opens Dashboard view (analytics page for your emails)
 
+Technology:
+- Need to add a pixel to outgoing emails
+- maybe through a chrome extension, maybe through a plugin to various email services
+- server listens for requests for the pixel, logs the requests
+- parse those logs to see data about individual emails
 
-challenge:
-how to associate an email with the tracking information?
+One annoying technical challenge might be associating a particular email with the tracking information. You may have to be a little bit clever in the UI to make sure that you can put the right information next to the right email, even when you don't necessarily have identifiers that you've added loaded on the screen. The goal is to show tracking information from the inbox view, but a decent workaround is to show only from the detail view.
 
-possible solutions: 
-hash email contents / save email contents
-some unique email identifier (message-id?)
-Key is that it has to be available from the chrome extension)
+On the stats dashboard I'd like to see emails sent, open rate, average # of opens, time to open, response rate, forward rate. Basically, you'd try to send a bunch of emails and see how they did, and then build whatever you'd want to look at to know at a glance how they did.
 
-goal is to show tracking information from the inbox view / workaround is to show only from the detail view
+#### Health Record Schema API
 
-stats page? (Emails sent, open rate, average # of opens, time to open, response rate, fwd rate)
+Basic insight: if you can make the _shape_ of the data from different services available, then services will be able to integrate with each other.
 
-** Health record schema api
-[2018-11-06 Tue 19:49]
-*** basic insight
-**** if you can make the _shape_ of the data from different services available
-**** then services will be able to integrate with each other
-**** Clever, but for hospitals + health providers instead of schools
+Healthcare data is a huge, messy, and enormously lucrative industry. There is a ton of vendor lock-in, and my bet is that it's mostly an issue of incompatible schemas. Solving problem of serving up the _schemas_ of different services might be enough to empower the engineers at different health data outfits to build integrations with each other's software, breaking some of the stasis and anti-competitive practices holding back healthcare tech.
 
+The analagous startup in the K-12 Education space is [Clever](https://clever.com/about), which offers meta-level services (single sign-on, secure sync of student roster data) to schools and the vast ecosystem of software for the classroom. They recognized that teachers were spending a ton of class time getting students to log into different apps, and that the initial configuration and log in overhead of the apps was actually holding teachers back from using tech effectively.
 
+The set of problems in healthcare are different from education, but the same kind of thinking applies - make the fractured and fractious ecosystem healthier and saner for product developers, so they can focus on helping the end user.
 
-### B2B
-** book-time 
- [2018-12-23 Sun 00:46]
-*** like skillshare but it could be anything
-*** spin off of gamertrainer, generalized uber-for-time-with-youtubers
+### <a id="sec-5-2"></a>B2B
 
-** visualize-your-business
-[2018-10-27 Sat 12:32]
-*** Business / market research tools
-*** Build an explorable explanation of your own business
-*** Turn your excel model into a web visualization
-*** how should software help people understand some situation?
-*** what would be better than a spreadsheet / powerpoint?
-Chart by geography
-Chart by roles
-Chart by ‘flows’ of money, people, products
+#### Booking Platform for Gig-oriented Professionals
 
-*** Nicky case should make custom explorable explanations for businesses
-[2018-10-27 Sat 22:44]
+Like skillshare, but not just for classes - a generalized time-booking platform
 
-** Tool to turn some content into a drip / page / newsletter
-   [2018-10-27 Sat 12:55]
-Tweet / post / email / webpage versions of some content
-  - strong defaults for dripping it out
-  - tool for seeing all the places you’ve shared / linked, how they’ve done
+There are plenty of services that do something like this, but there are enough folks who have and want to book time with each other that the needs are still underserved. It should be super easy for someone (a yogi, a caterer, a photographer, a musician) to put up times they are available to be booked for services. The booking flow should be smooth, and have time tracking and payments built-in.
+
+One version of this might focus on online services, and build in live chat, screensharing, video chat, recording, and streaming features. 
+
+#### visualize-your-business
+
+This one is actually a startup idea with a particular founder in mind. 
+
+[Nicky Case](https://ncase.me/) builds amazing [explorable explanations](https://explorabl.es/). They are fascinating introductions to different ideas, and convey in a few fun minutes what would otherwise be impossible to convey. It's reminiscent of Bret Victor's [Media For Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/). 
+
+Businesses often deal with complex systems, with many related parts and complex phenomena. It's frequently hard or impossible to communicate across an organization because teams lack shared understanding, shared experience, and shared language. 
+
+Nicky should make (or teach others to make) custom explorable explanations for businesses. [The Evolution of Trust](https://ncase.me/trust/) is more complicated than most shitty 2-hour powerpoint-slides-driven presentations, and packs more engagement and information than the best of them.
+
+Interactive 'games' like this encourage participants to _play_ with the data and the models in ways that spreadsheets and slides don't afford. It becomes fun and obvious to change different assumptions of some model, and see what the outcome is. 
+
+This is basically no different than most enterprise data-analytics platforms, except in tone. Instead of dry, objective, seriousness, explorable explanations expect that you won't be bored. They are delightful. The focus shifts from understanding the current data to understanding the possibilities. 
+
+Anyone else could do this as a consulting business too, but they probably ought to have a background in making games and making data fun, otherwise it's missed the point.
 
 
-### B2C
+#### Turn content into a drip / page / newsletter
+
+If you write some content, it should be button-click easy to push it across email, facebook, twitter, instagram, a blog, etc.
+
+Key features:
+- strong defaults for dripping it out
+- customizable templates for different platforms
+- preview version of all the different targets
+- dashboard of how content has performed across platforms
+
+### <a id="sec-5-3"></a>B2C
 
 ** refer-your-friends
 *** drive referrals internally
@@ -330,12 +348,13 @@ No one should get 100%
 
 ** podcast-er
 *** react-native?
+
 ** code-learning-newsletter
 [2018-10-24 Wed 20:00]
 Paid code teaching newsletter
 
 
-### Clones
+### <a id="sec-5-4"></a>Clones
 
 *** scooter companies
 *** stripe atlas / wework for storefronts
@@ -353,8 +372,7 @@ Paid code teaching newsletter
 *** lastpass / 1password
 *** twilio
 *** comcast / time warner / verizon
-
-*** insta clone
+*** instagram
 
 *** has a market, so long as its got data privacy
 [2018-11-16 Fri 18:08]
@@ -387,7 +405,7 @@ Logo - twitter logo with stick figure legs
 [2018-11-18 Sun 12:33]
 
 
-## Thoughts and Notes
+## <a id="sec-6"></a>Thoughts and Notes
 
 It's wildly fun to keep a running list of ideas. 
 
