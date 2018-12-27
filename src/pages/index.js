@@ -56,7 +56,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: {fields: [frontmatter___date], order: DESC}
       # filter out pages not in /posts, (about, etc)
-      # filter: {fields: {slug: {regex: "/post/"}}}
+      filter: {fields: {slug: {regex: "/post/"}}}
     ) {
       edges {
         node {
