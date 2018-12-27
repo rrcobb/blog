@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Book Review: Blended'
+title: 'Review: Blended'
 description: 'A Review of \'Blended: Using Disruptive Innovation to Improve Schools\' by Michael Horner and Heather Staker'
 date: 2018-12-03T00:11:40-05:00
 tags: [review, blended, book, education, edtech, disruptive, books that should have been essays]
 ---
 
-# Book Review: Blended
+# Review: Blended
 
 A chapter by chapter review of _Blended: Using Disruptive Innovation to Improve Schools_ by Michael Horner and Heather Staker.
 
@@ -142,24 +142,21 @@ Question: What does 'Teacher of Record' mean? The concept of a ‘teacher of rec
 I guess it's a state law thing? For holding teachers accountable for the students they teach?
 
 
-> need custodial supervision
->
-> Page 53 · Location 1724
+Highlight(orange) - Mixing of Blended Models > Page 53 · Location 1724
+need custodial supervision
+Note - Mixing of Blended Models > Page 53 · Location 1724
+~need~ get custodian supervision
 
-~~need~~ get custodian supervision
 
-There. Fixed that for ya.
 
-> the Internet
->
-> Page 54 · Location 1738
+Highlight(orange) - Mixing of Blended Models > Page 54 · Location 1738
+the Internet
+Note - Mixing of Blended Models > Page 54 · Location 1738
+They’re not sending their best technologists to the Christensen institute, or at least not ones who are finicky about language
 
-I am so much more finicky about language than the Christensen institute. 
-
-> modalities
->
-> Page 54 · Location 1755
-
+Highlight(orange) - Mixing of Blended Models > Page 54 · Location 1755
+modalities
+Note - Mixing of Blended Models > Page 54 · Location 1755
 Do you actually mean modalities?
 
 Highlight(blue) - Mixing of Blended Models > Page 55 · Location 1772
