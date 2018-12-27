@@ -2,5 +2,9 @@
   "name": "small-motions",
   "alias": [
     "rob.co.bb"
-  ]
+  ],
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+  ],
+  "version": 2
 }
