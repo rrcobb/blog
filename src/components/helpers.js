@@ -107,7 +107,8 @@ export class Foldable extends React.Component {
   render() {
     return <React.Fragment>
       <span style={{ cursor: 'pointer' }} onClick={() => this.setState({ show: !this.state.show })}>
-        {this.props.label}: {this.state.show ? "Hide" : "Show"}</span>
+        {this.props.label}: <a>{this.state.show ? "Hide" : "Show"}</a>
+      </span>
       <div>
         {this.state.show ? this.props.children : null}
       </div>
