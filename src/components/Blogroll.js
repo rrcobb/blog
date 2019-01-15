@@ -5,6 +5,7 @@ import React from 'react'
 import { rhythm } from '../utils/typography'
 
 const LINK_LIST = [
+  {name: "Prince", url: "https://maxcell.me/"},
   {name: "Julia Evans", url: "https://jvns.ca/"},
   {name: "Irrational Exuberance", url: "https://lethain.com/about/" },
   {name: "Affording Play", url: "https://mkremins.github.io/" },
@@ -14,7 +15,6 @@ const LINK_LIST = [
   {name: "Random Hacks", url: "http://www.randomhacks.net/"},
   {name: "The Little Calculist", url: "http://calculist.org/"},
   {name: "Wilfred Hughes Blog", url: "http://www.wilfred.me.uk/"},
-  {name: "Prince", url: "src/pages/posts/2018-12-03-review-blended.md"}
 ]
 
 class BlogLink extends React.Component {
