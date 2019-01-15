@@ -44,6 +44,7 @@ function createPosts(createPage, graphql, blogPost) {
       {
         allMarkdownRemark(
           sort: {fields: [frontmatter___date], order: DESC}
+          filter: {fields: {slug: {regex: "/post|page|about|blogroll/"}}}
           limit: 1000
         ) {
           edges {
