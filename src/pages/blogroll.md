@@ -10,6 +10,7 @@ Click through, see if you like them, and read around! If you like this, you shou
 ## Coding and Tech
 - [Prince](https://maxcell.me)
 - [King Cons (Brit Butler)](https://blog.kingcons.io/)
+- [Squidarth (Sid Shanker)](http://squidarth.com/)
 - [Julia Evans](https://jvns.ca)
 - [Irrational Exuberance (Will Larson)](https://lethain.com/about/)
 - [Overreacted (Dan Abramov)](https://overreacted.io)
