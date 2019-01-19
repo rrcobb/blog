@@ -3,15 +3,28 @@ title: Blogroll
 tags: [links]
 ---
 
-Here are some blogs I follow. Check them out!
+Here are some blogs I follow. 
 
+Click through, see if you like them, and read around! If you like this, you should also check out [reviews](/tags/reviews) and [links](/tags/links)
+
+## Coding and Tech
 - [Prince](https://maxcell.me)
+- [King Cons (Brit Butler)](https://blog.kingcons.io/)
 - [Julia Evans](https://jvns.ca)
-- [Irrational Exuberance](https://lethain.com/about/)
-- [Affording Play](https://mkremins.github.io/)
-- [Melting Asphalt](https://meltingasphalt.com/)
-- [Random Critical Analysis](https://randomcriticalanalysis.com)
-- [Overreacted](https://overreacted.io)
-- [Random Hacks](http://www.randomhacks.net)
-- [The Little Calculist](http://calculist.org)
+- [Irrational Exuberance (Will Larson)](https://lethain.com/about/)
+- [Overreacted (Dan Abramov)](https://overreacted.io)
+- [Random Hacks (Eric Kidd)](http://www.randomhacks.net)
+- [The Little Calculist (David Hermann)](http://calculist.org)
 - [Wilfred Hughes Blog](http://www.wilfred.me.uk)
+
+## Not Technology
+- [Ribbon Farm (Venkatesh Rao and Sarah Perry)](https://www.ribbonfarm.com)
+- [Kortina.net (Andrew Kortina)](https://kortina.nyc/work/)
+- [Affording Play (Max Kreminski)](https://mkremins.github.io/)
+- [Random Critical Analysis](https://randomcriticalanalysis.com)
+- [Melting Asphalt (Kevin Simler)](https://meltingasphalt.com/)
+- [Madwoman with a Laptop (Marilee Lindeman)](https://madwomanwithalaptop.com/)
+- [Slate Star Codex (Scott Alexander)](https://slatestarcodex.com/)
+- [Marginal Revolution (Tyler Cowen and Alex Tabarrok)](https://marginalrevolution.com/)
+- [Overcoming Bias (Robin Hanson)](http://www.overcomingbias.com/)
+- [Less Wrong](https://www.lesswrong.com/)
