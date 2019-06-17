@@ -21,6 +21,6 @@ Some Things I've worked on:
 - [umd.io](https://umd.io/)
 - [Fin](https://www.fin.com/)
 
-More at my [github](https://github.com/rrcobb)
+More at my [github](https://github.com/rrcobb). Also I have a code [playground](//playground.rob.co.bb) with some experiments.
 
 You can reach me on Twitter [@robcobbable](https://twitter.com/robcobbable)
