@@ -1,7 +1,14 @@
 {
+  "version": 2,
   "name": "small-motions",
-  "alias": [
-    "rob.co.bb"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
   ],
-  "version": 1
+  "routes": [
+    {"src": "^/(.*).html", "headers": {"cache-control": "public,max-age=0,must-revalidate"}, "dest": "$1.html" }
+  ]
 }
