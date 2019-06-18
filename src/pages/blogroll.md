@@ -7,7 +7,9 @@ Here are some blogs I follow.
 
 Click through, see if you like them, and read around! If you like this, you should also check out [reviews](/tags/reviews) and [links](/tags/links)
 
-## Coding and Tech
+## Coding, Education, and Tech
+- [Learnable Programming](http://worrydream.com/LearnableProgramming/)
+- [Mindstorms](http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf)
 - [Prince](https://maxcell.me)
 - [King Cons (Brit Butler)](https://blog.kingcons.io/)
 - [Squidarth (Sid Shanker)](http://squidarth.com/)
