@@ -7,14 +7,27 @@ tags: [education, cs ed weekly, expertise, learning]
 ---
 
 # The Expertise Reversal Effect
-
+>
 > Instructional techniques that are highly effective with inexperienced learners can lose their effectiveness and even have negative consequences when used with more experienced learners
 
 This week's paper from Sweller, J., Ayres, P. L., Kalyuga, S. & Chandler, P. A. walks through a number of pedagogical strategies based on Cognitive Load Theory and demonstrates that most of them have a marked 'flip' in results depending on the level of expertise of the learner. 
 
 [Full Paper](http://lexiconic.net/pedagogy/2003-Kalyuga_et_al.pdf)
 
-## 1. Cognitive Load Theory
+* [1. Cognitive Load Theory](#1-cognitive-load-theory)
+* [2. Instructional effectiveness and expertise](#2-instructional-effectiveness-and-expertise)
+* [3. Expertise Reversal and the Split Attention and Redundancy effects](#3-expertise-reversal-and-the-split-attention-and-redundancy-effects)
+  + [The Split Attention Effect](#the-split-attention-effect)
+  + [The Redundancy Effect](#the-redundancy-effect)
+  + [Accounting for Expertise](#accounting-for-expertise)
+* [4. Text Processing and Expertise Reversal](#4-text-processing-and-expertise-reversal)
+* [5. But what about modalities?](#5-but-what-about-modalities)
+* [6. Worked Examples and Expertise Reversal](#6-worked-examples-and-expertise-reversal)
+* [7. Interacting elements and expertise reversal](#7-interacting-elements-and-expertise-reversal)
+* [8. Imagination effect and expertise reversal](#8-imagination-effect-and-expertise-reversal)
+* [9. Conclusion](#9-conclusion)
+
+## <a id="1-cognitive-load-theory"></a>1. Cognitive Load Theory
 
 [Wikipedia on CLT](https://en.wikipedia.org/wiki/Cognitive_load)
 
@@ -26,7 +39,7 @@ The fix is _schemas_. Learners build schemas that make concepts fit into less wo
 
 In Cognitive Load Theory, all of learning is framed in light of working memory limits. Learners acquire new schemas, then through practice, make schema use automatic instead of effortful. This reduces the working memory burden. Expertise means having lots of schemas, practiced to the level of automatic use. Experts can handle complex tasks because their schemas reduce working memory demands.
 
-## 2. Instructional effectiveness and expertise
+## <a id="2-instructional-effectiveness-and-expertise"></a> 2. Instructional effectiveness and expertise
 
 The goal of instruction is to scaffold the construction of schemas.
 
@@ -36,23 +49,23 @@ Experts already have schemas in place to guide them in dealing with a new task. 
 
 The overlap of schema-based guidance (already in experts' heads) and guidance from instruction can lead to cognitive overload. The rest of the paper explores situations like these, where guidance that is useful for novices can be negative for experts.
 
-## 3. Expertise Reversal and the Split Attention and Redundancy effects
+## <a id="3-expertise-reversal-and-the-split-attention-and-redundancy-effects"></a>3. Expertise Reversal and the Split Attention and Redundancy effects
 
 The Split Attention Effect and the Redundancy Effect flip-flop depending on how experienced the learner is.
 
-### The Split Attention Effect
+### <a id="the-split-attention-effect"></a> The Split Attention Effect
 
 Separating sources adds a cognitive load of searching and matching between representations. If you have a diagram and explanatory text side-by-side, readers have to scan back and forth to match up concepts. This adds cognitive load, limiting learning. If you integrated the text with the diagram, it would reduce the load from the searching and matching. 
 
 This effect holds up similarly for text shown now and text shown later. If you have to e.g. think about a previous slide in a deck and compare it to the current slide, that adds cognitive load compared to showing them at once. Spatially and chronologically integrated materials reduce cognitive load.
 
-### The Redundancy Effect
+### <a id="the-redundancy-effect"></a> The Redundancy Effect
 
 If multiple sources of info are necessary for learning a concept, integrating them is good. However, if they could stand on their own, eliminating the redundant one is better.
 
 This is surprising! One source alone is _better_ than redundant sources. This is counterintuitive, because we expect that repetition and presenting information in multiple modalities makes something easier to learn. The authors address this below, but I think the way to understand it might be to think about cognitive load in a particular moment - at any given time, adding redundant sources of information will increase cognitive load. Over time, seeing something repeated or presented in different ways might aid learning, but not if it leads to cognitive overloading.
 
-### Accounting for Expertise
+## <a id="accounting-for-expertise"></a> Accounting for Expertise
 
 > A source of information that is essential for a novice may be redundant for someone with more domain-specific knowledge.
 
@@ -60,7 +73,7 @@ This is surprising! One source alone is _better_ than redundant sources. This is
 
 This is the Expertise Reversal Effect.
 
-## 4. Text Processing and Expertise Reversal
+## <a id="4-text-processing-and-expertise-reversal"></a>4. Text Processing and Expertise Reversal
 
 When reading about new concepts, verbose and detailed explanations can help learners with new concepts. Learners with more expertise get distracted by the additional explanatory text, and benefit more from minimal text.
 
@@ -70,7 +83,7 @@ When reading about new concepts, verbose and detailed explanations can help lear
 
 Expertise Reversal again!
 
-## 5. But what about modalities?
+## <a id="5-but-what-about-modalities"></a>5. But what about modalities?
 
 We mentioned above that having multiple modalities of presentation might contradict the (slightly surprising) Redundancy Effect. The authors have another CLT-based explanationfor why multi-modal learning might work:
 
@@ -86,7 +99,8 @@ Seeing and hearing at the same time seems to work.
 
 But interestingly, it detracts based on learners' level of experience!
 
-## 6. Worked Examples and Expertise Reversal
+## <a id="6-worked-examples-and-expertise-reversal"></a>6. Worked Examples and Expertise Reversal
+
 - worked examples are often more effective than other problem solving based learning situations
 - eg tutorial better than unstructured exploration
 - for experts, worked examples add more cognitive load, if the problem they can see is trivial
@@ -96,7 +110,7 @@ But interestingly, it detracts based on learners' level of experience!
 
 >  a fading out procedure was superior to an abrupt switch from worked examples to problem
 
-## 7. Interacting elements and expertise reversal
+## <a id="7-interacting-elements-and-expertise-reversal"></a>7. Interacting elements and expertise reversal
 
 Systems with lots of interacting elements are hard to learn. There’s a double bind - you need to keep all the pieces in your head in order to understand how any of the pieces work, but you become cognitively overloaded if you try to keep all the new things in your head at once.
 
@@ -110,13 +124,13 @@ Interestingly, this strategy did not result in the full expertise reversal effec
 
 This suggests that its safe to explore false-but-suggestive isolated elements models with students of all levels as a way of building up to the true interacting elements model.
 
-## 8. Imagination effect and expertise reversal
+## <a id="8-imagination-effect-and-expertise-reversal"></a>8. Imagination effect and expertise reversal
 
 Asking learners to imagine the contents of instruction is more effective than asking them to study... so long as they have enough experience to imagine effectively. In this case, the expertise reversal “turns on” the imagination effect as learners gain more experience. When students don’t have sufficient experience, worked examples are more effective.
 
 Once again, the explanation is in terms of working memory overload - imagining works if schemas are in place. Without the schemas, learners working memory is overloaded because they have to process too many individual components. The benefits of imagination are also couched in terms of constructing and automating schemas - imagining encourages automation of the schemas.
 
-## 9. Conclusion
+## <a id="9-conclusion"></a>9. Conclusion
 
 Instructional design should take into account the expertise of learners. This seems like an obvious insight, but there are subtleties in the particulars of how to design for novices and for experts.
 
