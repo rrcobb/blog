@@ -8,7 +8,6 @@ tags: [education, cs ed weekly, expertise, learning]
 
 # The Expertise Reversal Effect
 
-
 > Instructional techniques that are highly effective with inexperienced learners can lose their effectiveness and even have negative consequences when used with more experienced learners
 
 This week's paper from Sweller, J., Ayres, P. L., Kalyuga, S. & Chandler, P. A. walks through a number of pedagogical strategies based on Cognitive Load Theory and demonstrates that most of them have a marked 'flip' in results depending on the level of expertise of the learner. 
@@ -19,41 +18,41 @@ This week's paper from Sweller, J., Ayres, P. L., Kalyuga, S. & Chandler, P. A. 
 
 [Wikipedia on CLT](https://en.wikipedia.org/wiki/Cognitive_load)
 
-The explanations for the techniques described all come down to limits on working memory. _Cognitive Load Theory_ says that there are only a few "slots" available for "chunks" of information to fit in working memory at a time. If you try to fit in too many chunks, you get reduced processing ability. 
+This paper describes lots of instructional techniques. The cognitive science explanations all come down to limits on working memory. _Cognitive Load Theory_ says that there are only a few "slots" available for "chunks" of information to fit in working memory at a time. If you try to fit in too many chunks, you get reduced processing ability. 
 
 The fix is _schemas_. Learners build schemas that make concepts fit into less working memory. 
 
 > Because of the limited capacity working memory, the proper allocation of available cognitive resources is essential to learning. If a learner has to expend limited resources on activities not directly related to schema construction and automation, learning may be inhibited.
 
-In Cognitive Load Theory, all of learning is framed in this way. Learners acquire new schemas, then through practice, make schema use automatic instead of effortful. This reduces the working memory burden. Expertise is having lots of schemas, practiced to the level of automatic use. Experts can handle complex tasks, because their schemas reduce working memory demands.
+In Cognitive Load Theory, all of learning is framed in light of working memory limits. Learners acquire new schemas, then through practice, make schema use automatic instead of effortful. This reduces the working memory burden. Expertise means having lots of schemas, practiced to the level of automatic use. Experts can handle complex tasks because their schemas reduce working memory demands.
 
 ## 2. Instructional effectiveness and expertise
 
 The goal of instruction is to scaffold the construction of schemas.
 
-Novices have fewer schemas in place - therefore, less ability to organize new info. Effective instruction can substitute for missing schemas by structuring the information carefully. That careful structuring can also model the schemas for learners, and help build those schemas in learners' minds. Without that structure, learners are prone to cognitive overload, which limits learning.
+Novices have fewer schemas in place - therefore, less ability to organize new information. Effective instruction can substitute for missing schemas by structuring new information - pre-chewing the tough new knowledge to make it easier to digest. That instructional structuring can also model the schemas for learners, and through example help learners build schemas faster. Without that structuring, learners are more prone to cognitive overload, which limits learning.
 
-Experts already have schemas in place to guide them in dealing with a new task. If instruction provides the schema-construction guidance that's helpful for novices, it may be redundant for experts. That redundant information still has to be connected and integrated - it still requires experts to pay attention.
+Experts already have schemas in place to guide them in dealing with a new task. If instruction provides the schema-construction guidance that's helpful for novices, it may be redundant for experts. Experts still need to process the redundant information - it still requires attention, i.e. it takes up working memory.
 
-The overlap of the schema-based guidance (that was already in their heads) and instructional guidance can lead to cognitive overload. That means that guidance that is useful for novices can be negative for experts.
+The overlap of schema-based guidance (already in experts' heads) and guidance from instruction can lead to cognitive overload. The rest of the paper explores situations like these, where guidance that is useful for novices can be negative for experts.
 
 ## 3. Expertise Reversal and the Split Attention and Redundancy effects
 
 The Split Attention Effect and the Redundancy Effect flip-flop depending on how experienced the learner is.
 
-### The Split Attention effect
+### The Split Attention Effect
 
 Separating sources adds a cognitive load of searching and matching between representations. If you have a diagram and explanatory text side-by-side, readers have to scan back and forth to match up concepts. This adds cognitive load, limiting learning. If you integrated the text with the diagram, it would reduce the load from the searching and matching. 
 
 This effect holds up similarly for text shown now and text shown later. If you have to e.g. think about a previous slide in a deck and compare it to the current slide, that adds cognitive load compared to showing them at once. Spatially and chronologically integrated materials reduce cognitive load.
 
-### The Redundancy effect
+### The Redundancy Effect
 
 If multiple sources of info are necessary for learning a concept, integrating them is good. However, if they could stand on their own, eliminating the redundant one is better.
 
 This is surprising! One source alone is _better_ than redundant sources. This is counterintuitive, because we expect that repetition and presenting information in multiple modalities makes something easier to learn. The authors address this below, but I think the way to understand it might be to think about cognitive load in a particular moment - at any given time, adding redundant sources of information will increase cognitive load. Over time, seeing something repeated or presented in different ways might aid learning, but not if it leads to cognitive overloading.
 
-### Accounting for expertise
+### Accounting for Expertise
 
 > A source of information that is essential for a novice may be redundant for someone with more domain-specific knowledge.
 
