@@ -8,11 +8,11 @@ tags: [education, cs ed weekly, expertise, learning]
 
 > Instructional techniques that are highly effective with inexperienced learners can lose their effectiveness and even have negative consequences when used with more experienced learners
 
-This week's paper is [The Expertise Reversal Effect (2003)](http://lexiconic.net/pedagogy/2003-Kalyuga_et_al.pdf) from Sweller, J., Ayres, P. L., Kalyuga, S. & Chandler, P. A.
+This week's paper is [The Expertise Reversal Effect (2003)](/the-expertise-reversal-effect-kalyuga-2003.pdf) from Sweller, J., Ayres, P. L., Kalyuga, S. & Chandler, P. A.
 
 It walks through a number of pedagogical strategies based on Cognitive Load Theory and demonstrates that most of them have a marked 'flip' in results depending on the level of expertise of the learner. 
 
-The [Full Paper](http://lexiconic.net/pedagogy/2003-Kalyuga_et_al.pdf) is only 8 pages, so it's a quick read.
+The [Full Paper](/the-expertise-reversal-effect-kalyuga-2003.pdf) is only 8 pages, so it's a quick read.
 
 * [1. Cognitive Load Theory](#1-cognitive-load-theory)
 * [2. Instructional effectiveness and expertise](#2-instructional-effectiveness-and-expertise)
