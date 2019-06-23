@@ -93,47 +93,57 @@ Then, spreading the load across more systems might tap into increased total proc
 
 > Many studies have demonstrated that learners can integrate words and diagrams more easily when the words are presented in auditory form rather than visually
 
-Seeing and hearing at the same time seems to work.
+Seeing and hearing at the same time seems to work. It spreads the load across more cognitive resources.
 
 > auditory explanations may also become redundant when presented to more experienced learners
 
-But interestingly, it detracts based on learners' level of experience!
+But interestingly, it detracts based on learners' level of experience! Again, experts get distracted by additional material that would benefit novices. As an instructor or experience designer, adding additional explanatory material or additional modalities will make things better for novices, but hurt your more advanced learners.
 
 ## <a id="6-worked-examples-and-expertise-reversal"></a>6. Worked Examples and Expertise Reversal
 
-- worked examples are often more effective than other problem solving based learning situations
-- eg tutorial better than unstructured exploration
-- for experts, worked examples add more cognitive load, if the problem they can see is trivial
+Worked examples are problems presented with their solutions and the solution steps.  Worked examples are often more effective than other problem solving based learning situations. For instance, a guided tutorial often works better than unstructured exploration for introducing a concept to beginners.
+
+However, for experts, worked examples add cognitive load compared to learners working through the problems on their own.
+
 > Inexperienced mechanical trade apprentices were presented with either a series of worked examples to study or problems to solve. On subsequent tests, inexperienced trainees benefitted most from the worked examples condition. Trainees who studied worked examples performed better with lower ratings of mental load than similar trainees who solved problems, duplicating a conventional worked example effect. With more experience in the domain, the superiority of worked examples disappeared. Eventually, with sufficient experience, additional learning was facilitated more by problem solving than through studying worked examples. The worked examples became redundant and problem solving proved superior, demonstrating another expertise reversal effect.
 
-> inexperienced learners benefitted most from an instructional procedure that placed a heavy emphasis on guidance. Any additional instructional guidance (e.g., indicating a goal or subgoals associated with a task, suggesting a strategy to use, providing solution examples, etc.) should reduce cognitive load for inexperienced learners, especially in the case of structurally complex instructional materials. At the same time, additional instructional guidance might be redundant for more experienced learners and require additional working memory resources to integrate the instructional guidance
+There's an intuitive connection here - before you've seen someone do something, it's overwhelming to have to be 'thrown in the deep end' and try to solve things on your own. However, after you've seen someone else demonstrate a skill, you benefit most from trying it on your own.
 
->  a fading out procedure was superior to an abrupt switch from worked examples to problem
+> inexperienced learners benefitted most from an instructional procedure that placed a heavy emphasis on guidance. Any additional instructional guidance (e.g., indicating a goal or subgoals associated with a task, suggesting a strategy to use, providing solution examples, etc.) should reduce cognitive load for inexperienced learners, especially in the case of structurally complex instructional materials. At the same time, additional instructional guidance might be redundant for more experienced learners and require additional working memory resources to integrate the instructional guidance.
+
+Lots of types of support can reduce cognitive load for beginners, but add cognitive load for experts because it is redundant. The implication here is that there's also a missed opportunity to allow experts to practice their schemas. 
+
+Unsurprisingly, experience is a gradient. For all of these effects, we see a gradual fading out and then crossing over, not a sudden flip.
+
+> a fading out procedure was superior to an abrupt switch from worked examples to problems.
+
 
 ## <a id="7-interacting-elements-and-expertise-reversal"></a>7. Interacting elements and expertise reversal
 
 Systems with lots of interacting elements are hard to learn. There’s a double bind - you need to keep all the pieces in your head in order to understand how any of the pieces work, but you become cognitively overloaded if you try to keep all the new things in your head at once.
 
-Once learners have schemas in place, the effect is to reduce the working memory needed to account for the interacting parts. The problem is the chicken and egg, where you can’t get out of cognitive overload before you learn the new schema.
+Experienced learners' schemas reduce the working memory needed for each of the interacting parts. Concepts or systems with many interacting parts present a chicken-and-egg problem, where you need the schemas to reduce cognitive load, but can’t reduce cognitive load to learn before you have the schemas.
 
-For example, in trying to learn about the syntax of a foreign language, you need to keep the relations between different parts of speech in your head. (Conversely, learning new vocabulary requires keeping few new items in working memory).
+For example, learning foreign language syntax requires you to keep the track of the relations between all the different parts of speech in your head. Conversely, learning new vocabulary requires keeping few new items in working memory.
 
-The instructional solution is to present a simplified (but false) model to help learners build a partial schema before they encounter the system with all its interacting parts.
+The instructional solution is to present a simplified (but false) model to help learners build a partial schema. That way learners have some tools in place before they encounter the full system with all its interacting parts.
 
-Interestingly, this strategy did not result in the full expertise reversal effect. experienced learners showed no difference in effectiveness between the mixed approach (isolated elements followed by interacting elements) and the conventional method (interacting elements instruction during both stages).
+Interestingly, this instructional strategy did not result in the full expertise reversal effect. Experienced learners showed no difference in effectiveness between the mixed approach (isolated elements followed by interacting elements) and the conventional method (interacting elements instruction during both stages).
 
 This suggests that its safe to explore false-but-suggestive isolated elements models with students of all levels as a way of building up to the true interacting elements model.
 
 ## <a id="8-imagination-effect-and-expertise-reversal"></a>8. Imagination effect and expertise reversal
 
-Asking learners to imagine the contents of instruction is more effective than asking them to study... so long as they have enough experience to imagine effectively. In this case, the expertise reversal “turns on” the imagination effect as learners gain more experience. When students don’t have sufficient experience, worked examples are more effective.
+Asking learners to imagine the contents of instruction is more effective than asking them to study... so long as they have enough experience to imagine effectively. The imagination effect "turns on" as learners gain more experience. When students don’t have sufficient experience, worked examples are more effective.
 
-Once again, the explanation is in terms of working memory overload - imagining works if schemas are in place. Without the schemas, learners working memory is overloaded because they have to process too many individual components. The benefits of imagination are also couched in terms of constructing and automating schemas - imagining encourages automation of the schemas.
+Once again, the explanation is in terms of working memory overload - imagining works if schemas are in place. Without the schemas, learners working memory gets overloaded. They have to process too many individual components.
+
+The benefits of imagination are also couched in terms of constructing and automating schemas. Imagining instruction encourages automation of schemas.
 
 ## <a id="9-conclusion"></a>9. Conclusion
 
 Instructional design should take into account the expertise of learners. This seems like an obvious insight, but there are subtleties in the particulars of how to design for novices and for experts.
 
-More than anything, instructional design should focus on accounting for cognitive load. If materials recognize the level of learner in terms of the schemas they have incorporated and their level of automation with those schemas, they can maintain engagement and reduce the chances of overload.
+More than anything, instructional design should account for cognitive load. If materials recognize the level of the learner in terms of 1) the schemas they have incorporated and 2) the level of automation with those schemas, they can reduce the chances of overload.
 
-This suggests that instructional design tools ought to let designers audit the number of new concepts learners have to hold in memory at any given point, as well as the level of automaticity of various schemas. If curriculum designers and teachers had visibility into cognitive load, they could take advantage of the most appropriate instructional strategy for that level of expertise.
+This suggests instructional design tools that audit the number of new concepts learners have to hold in memory as well as learners' automaticity of schemas. If curriculum designers and teachers had visibility into cognitive load, they could take advantage of the most appropriate instructional strategy for that level of expertise.
