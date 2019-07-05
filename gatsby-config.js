@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Small Motions',
+    title: 'Rob Cobb',
     author: 'Rob Cobb',
-    description: 'Shaping Exercises and Kata for thinking.',
-    siteUrl: 'https://shaping.now.sh/',
+    description: 'blog, experiments, about',
+    siteUrl: 'https://rob.co.bb/',
   },
   plugins: [
     {
@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Small Motions`,
-        short_name: `Small Motion`,
+        name: `Rob Cobb`,
+        short_name: `Rob Cobb`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
