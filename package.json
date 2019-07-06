@@ -3,7 +3,7 @@
   "description": "Blog. Powered by Gatsby",
   "version": "1.0.0",
   "author": "Rob Cobb <rwcobbjr@gmail.com>",
-"scripts": {
+  "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,9 @@
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-feed": "^2.0.5",
+    "gatsby-plugin-heap": "^1.1.0",
     "gatsby-plugin-manifest": "^2.0.2",
+    "gatsby-plugin-mixpanel": "^3.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.5",

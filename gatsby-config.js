@@ -63,5 +63,18 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    {
+      resolve: 'gatsby-plugin-mixpanel',
+      options: {
+        apiToken: process.env.MIXPANEL_API_TOKEN,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-heap',
+      options: {
+        appId: process.env.HEAP_APP_ID,
+        enableOnDevMode: false, // if 'false', heap will be fired on NODE_ENV=production only
+      },
+    },
   ],
 };
