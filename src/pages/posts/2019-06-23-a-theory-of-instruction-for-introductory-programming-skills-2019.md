@@ -67,3 +67,7 @@ Reading, writing, semantics, templates
 ## Experiment and Evaluation
 
 
+## Endnotes
+
+Overall, this paper was a little long-winded, and the study was underpowered for the claims it wanted to make. This is a little frustrating. The literature review is solid, the theory seems well-aligned with other things we know about teaching CS. I'll be watching for these authors to return with a bigger study implementing these ideas.
+
