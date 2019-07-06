@@ -32,9 +32,10 @@ class BlogIndex extends React.Component {
           <Tag text="little thoughts" tag="tweet" />.
         </p>
         <p>Posts from the last 2 years, newest first: </p>
-        <p>
+        <div>
           <PostList posts={recent} />
-        </p>
+        </div>
+        <p></p>
         <Foldable label="Older Posts">
           <PostList posts={old} />
         </Foldable>
