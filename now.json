@@ -12,8 +12,10 @@
   "routes": [
     {"src": "^/(.*).html", "headers": {"cache-control": "public,max-age=0,must-revalidate"}, "dest": "$1.html" }
   ],
-  "env": {
-    "MIXPANEL_API_KEY": "@mixpanel_api_key",
-    "HEAP_APP_ID": "@heap_app_id"
+  "build": {
+    "env": {
+      "MIXPANEL_API_KEY": "@mixpanel_api_key",
+      "HEAP_APP_ID": "@heap_app_id"
+    }
   }
 }
