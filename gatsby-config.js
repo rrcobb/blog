@@ -66,6 +66,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mixpanel',
       options: {
+        pageViews: 'all',
+        enableOnDevMode: true,
         apiToken: process.env.MIXPANEL_API_TOKEN,
       },
     },
@@ -73,7 +75,7 @@ module.exports = {
       resolve: 'gatsby-plugin-heap',
       options: {
         appId: process.env.HEAP_APP_ID,
-        enableOnDevMode: false, // if 'false', heap will be fired on NODE_ENV=production only
+        enableOnDevMode: true, // if 'false', heap will be fired on NODE_ENV=production only
       },
     },
   ],

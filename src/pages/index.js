@@ -3,11 +3,17 @@ import {graphql} from 'gatsby';
 import get from 'lodash/get';
 import partition from 'lodash/partition'
 import Helmet from 'react-helmet';
+import { withMixpanel } from 'gatsby-plugin-mixpanel'
 
 import {PostList, Tag, Foldable} from '../components/helpers';
 import Layout from '../components/layout';
 
 class BlogIndex extends React.Component {
+  componentDidMount() {
+    const { mixpanel } = this.props
+    mixpanel.track(`index`); // send event to mixpanel
+  }
+
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title');
     const siteDescription = get(
@@ -27,9 +33,7 @@ class BlogIndex extends React.Component {
         />
         <p>I'm Rob.</p>
         <p>
-          This is my site's homepage. Check out <Tag tag='recommended' />,{' '}
-          <Tag tag="review" text="reviews" />, <Tag text="exercises" tag="exercise" />, and{' '}
-          <Tag text="little thoughts" tag="tweet" />.
+          This is my site's homepage. Check out <Tag tag="review" text="reviews" />, <Tag tag="cs ed weekly" text="CS Ed Weekly" />, and <Tag tag="yak shave" text="yak shaves" /> 
         </p>
         <p>Posts from the last 2 years, newest first: </p>
         <div>
@@ -44,7 +48,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex;
+export default withMixpanel()(BlogIndex);
 
 export const pageQuery = graphql`
   query {
