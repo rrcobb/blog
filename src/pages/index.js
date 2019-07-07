@@ -12,6 +12,8 @@ class BlogIndex extends React.Component {
   componentDidMount() {
     const { mixpanel } = this.props
     mixpanel.track(`index`); // send event to mixpanel
+    window.mixPanel = mixpanel;
+    console.log('should be hitting a mixpanel track')
   }
 
   render() {
