@@ -112,10 +112,10 @@ What's it mean for you?
 
 If you are teaching someone something about programming (and you probably are in some ways, if you're reading this 😊), consider sequencing your teaching this way! Start with the behavior of the syntax, then have the learner practice the syntax. Next go into reading examples of patterns solved using the syntax, and finally use the new construct to solve abstract problems.
 
-Well, if you write documentation, you should keep this in mind! Start with an example of the syntax, then have a space for practicing the syntax, then have examples of using the syntax in patterns to solve problems, then provide opportunities to apply those patterns. Lots of documentation takes a very different sequencing approach: starting with the abstract patterns that the construct can solve, then showing those patterns in examples, then getting into behavior of the syntax. (Separately, documentation rarely affords chances to practice or check your understanding ☹️) 
+If you write documentation, you should keep this sequencing in mind! Examples of the syntax, then space for practicing the syntax, then examples of using the syntax in patterns to solve problems, then opportunities to apply those patterns. Lots of documentation takes almost the opposite sequencing approach, starting with the abstract patterns that the construct can solve, then showing those patterns in examples, then getting into behavior of the syntax. 
 
-Overall, this paper was a little long-winded, and the study was underpowered for the claims it wanted to make. This is frustrating! The theory seems well-aligned with other things we know about teaching CS, and I want to be more excited about sequencing instruction this way.
+As a separate note - it's a shame that documentation rarely affords chances to practice or check your understanding. ☹️ . 
+
+Overall, this paper was a little long-winded, and the study was underpowered for the claims it wanted to make. This is frustrating! The theory seems well-aligned with other things we know about teaching CS, and I want to be more excited about sequencing instruction this way. I'll be watching with hope for these authors to return with a bigger study answering the sequencing question more definitively.
 
 If you want to take a deeper look at the materials developed and how they incorporate theory, check out [the paper itself](/a-theory-of-instruction-for-introductory-programming-skills-xie-2019.pdf) and the [curriculum on github](https://github.com/codeandcognition/archive-2018cse-xie).
-
-I'll be watching with hope for these authors to return with a bigger study answering the sequencing question more definitively.
