@@ -9,7 +9,10 @@ tags: [education, cs weekly, misconceptions, concept inventory, introductory cs]
 
 In March, The Association for Computing Machinery (ACM) Special Interest Group on Computer Science Education (SIGCSE) [recognized ten symposium papers](https://www.eurekalert.org/pub_releases/2019-03/afcm-ttc022719.php) as the best, most interesting and influential papers in its 50 year history. 
 
-This 2010 paper from Kaczmarczyk, East, Petrick, and Herman comes in at number one on their list. [Identifying Student Misconceptions of Programming](/identifying-student-misconceptions-of-programming-2010.pdf) focuses on the particular confusions that students have about a set of concepts in CS1. Getting into the weeds of what students don't understand is a project close to my heart, and the authors pursue a promising direction - the development of a _Concept Inventory_. Concept Inventories are used effectively in some Physics classrooms as a diagnostic pre-test. By identifying the particular misconceptions students have about some theory, teachers can take direct steps to remedy those misconceptions. The Concept Inventory development involves finding out what students tend to misunderstand, so that you can develop a good pre-test tool.
+This 2010 paper from Kaczmarczyk, East, Petrick, and Herman comes in at number one. [Identifying Student Misconceptions of Programming](/identifying-student-misconceptions-of-programming-2010.pdf) focuses on the particular confusions that students have about concepts in CS1. 
+
+Getting into the weeds of what students don't understand is a project close to my heart, and the authors pursue a promising direction - the development of a _Concept Inventory_. Concept Inventories are [used in Physics classrooms](https://aapt.scitation.org/doi/10.1119/1.2343497) as a diagnostic pre-test. By identifying the particular misconceptions students have, teachers can take direct steps to remedy those misconceptions. Concept Inventory development involves finding out what students tend to misunderstand, so that you can develop a good pre-test tool.
+
 
 - to folks with experience, misconceptions appear baffling
 - https://en.wikipedia.org/wiki/Curse_of_knowledge
@@ -76,5 +79,8 @@ When I teach Ruby or JavaScript, we (almost) totally ignore the way that memory 
 
 ## Conclusion
 
-- Cataloguing errors and developing a concept inventory seems like a great idea. This process for developing it seems like a valuable way of doing it. More teachers of more classes should develop concept inventories and diagnostic assessments, so that they can use them in the classroom to locate the common areas of confusion among their students.
-- OO programming and thinking about the computers' memory are hard, and I doubt their importance when first learning syntax and semantics. They seem like discrete concepts that can be introduced later, instead of confusing the issue when trying to learn how to accomplish tasks with while loops.
+Cataloguing errors and developing a concept inventory seems like a great idea. This process for developing it seems like a valuable way of doing it. More teachers of more classes should develop concept inventories and diagnostic assessments, so that they can use them in the classroom to locate the common areas of confusion among their students.
+
+It's also great to see CS Education researchers taking a page from other science teachers. There's a lot that teachers know about teaching (duh), and it's encouraging to see this kind of tools-and-techniques level cross-pollination.
+
+Object Oriented programming and thinking about the computers' memory are hard, and I am personally suspicious of their importance when first learning CS syntax and semantics. They seem like discrete concepts that can be introduced later. Teaching them in CS1 means overloading and confusing students who are trying to learn how to accomplish simple tasks with while loops. This is really more of a general criticism of the structure and sequencing of CS1 courses, and explored more in the review of 
