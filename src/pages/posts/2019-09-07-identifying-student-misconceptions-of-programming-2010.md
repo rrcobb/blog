@@ -7,11 +7,11 @@ tags: [education, cs weekly, misconceptions, concept inventory, introductory cs]
 ---
 
 
-In March, The Association for Computing Machinery (ACM) Special Interest Group on Computer Science Education (SIGCSE) [recognized ten symposium papers](https://www.eurekalert.org/pub_releases/2019-03/afcm-ttc022719.php) as the best, most interesting and influential papers in its 50 year history. 
+In March, the Association for Computing Machinery (ACM) Special Interest Group on Computer Science Education (SIGCSE) [recognized ten symposium papers](https://www.eurekalert.org/pub_releases/2019-03/afcm-ttc022719.php) as the best, most interesting, most influential papers in its 50 year history. 
 
-This 2010 paper from Kaczmarczyk, East, Petrick, and Herman comes in at number one. [Identifying Student Misconceptions of Programming](/identifying-student-misconceptions-of-programming-2010.pdf) focuses on the particular confusions that students have about concepts in CS1. 
+This 2010 paper from Kaczmarczyk, East, Petrick, and Herman is at the top of the list. [Identifying Student Misconceptions of Programming](/identifying-student-misconceptions-of-programming-2010.pdf) focuses on the particular confusions that students have about concepts in CS1. 
 
-Getting into the weeds of what students don't understand is a project close to my heart, and the authors pursue a promising direction - the development of a _Concept Inventory_. 
+Getting into the weeds of what students don't understand is a project close to my heart, and the authors pursue a promising direction - the development of a _Concept Inventory_ - a diagnostic tool that teachers can use to figure out exactly what their students misunderstand. 
 
 ## Introduction
 
