@@ -5,7 +5,9 @@ tags: [about]
 
 I'm Rob.
 
-I work at [Flatiron School](https://flatironschool.com) helping people learn and change their own lives.
+I'm working on building community for code teachers across bootcamps, K-12, higher ed, and online.
+
+Sign up for news and updates on [CS Education](https://csed.substack.com/)
 
 Working in CS Education means I get to talk with smart people about what better education looks like.
 
@@ -21,6 +23,7 @@ I live in Washington, DC.
 
 Some things I've worked on:
 
+- [Flatiron School](https://flatironschool.com)
 - [Fin](https://www.fin.com/)
 - [umd.io](https://umd.io/)
 - [TIC Summer Camp](http://ticcamp.com/)
