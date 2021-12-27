@@ -3,7 +3,7 @@ import React from 'react';
 const Title = () => {
   return <React.Fragment>
       <h2>BotCamp</h2>
-      <h3> Flatiron fuzzy simulator </h3>
+      <h3>Coding bootcamp fuzzy simulator </h3>
     </React.Fragment>
 }
 
@@ -15,7 +15,7 @@ const Description = () => {
           Students come in with some skill, knowledge, aptitude, and X
         </li>
         <li>
-          Flatiron adds to those (we hope) through curriculum + instruction
+          Bootcamp adds to those (we hope) through curriculum + instruction
         </li>
         <li>
           Students apply to jobs
