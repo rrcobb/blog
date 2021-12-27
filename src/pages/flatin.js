@@ -62,17 +62,20 @@ class FoldingAnimation extends React.Component {
 export default class FlatinAnimation extends React.Component {
     render() {
         return <div>
-            <FoldingAnimation from="FLATIRON" to="LATIN"></FoldingAnimation>
-            <style>
-            {`
-            div {
-                font: Verdana;
-                font-size: xxx-large;
-            }`
-            }
-          </style>
-
-            
-        </div>
+                <div className="animation">
+                    <FoldingAnimation from="FLATIRON" to="LATIN"></FoldingAnimation>
+                </div>
+                <div>
+                    A <strong>hilarious</strong> (okay, just a pun) little animation for Jake
+                </div>
+                <style>
+                    {`
+                        .animation {
+                            font: Verdana;
+                            font-size: xxx-large;
+                        }
+                    `}
+                </style>
+            </div>
     }
 }
