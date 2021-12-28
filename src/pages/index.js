@@ -37,7 +37,7 @@ class BlogIndex extends React.Component {
         <p>
           This is my site's homepage. Check out <Tag tag="review" text="reviews" />, <Tag tag="cs ed weekly" text="CS Ed Weekly" />, and <Tag tag="yak shave" text="yak shaves" /> 
         </p>
-        <p>Posts from the last 2 years, newest first: </p>
+        <p>Posts from the last few years, newest first: </p>
         <div>
           <PostList posts={recent} />
         </div>

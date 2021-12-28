@@ -31,11 +31,15 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   },
   'a': {
     backgroundImage: 'none',
-  },
-  'a:visited': {
     color: '#06c',
   },
-  'li > p': {
+  'a:visited': {
+    color: '#D81159'
+  },
+  'a:hover': {
+    color: '#1ca086',
+   },
+    'li > p': {
     marginBottom: rhythm(0.25),
     marginTop: rhythm(0.25),
   },
