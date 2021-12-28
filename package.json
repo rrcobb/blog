@@ -41,8 +41,7 @@
     "react-typography": "^0.16.13",
     "serve": "^13.0.2",
     "typography": "^0.16.17",
-    "typography-theme-github": "^0.16.19",
-    "typography-theme-wordpress-kubrick": "^0.16.19"
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "eslint": "^8.5.0",

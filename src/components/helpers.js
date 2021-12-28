@@ -11,9 +11,11 @@ export const Tag = ({tag, text}) => (
       style={{
         backgroundColor: '#c1dc95',
         color: '#406d45',
-        padding: 5,
+        padding: 3,
         margin: 5,
         fontFamily: 'monospace',
+        textShadow: 'none',
+        textDecoration: 'underline',
       }}
     >
       {text || tag}
@@ -25,7 +27,6 @@ export const Title = ({children}) => (
   <h1
     style={{
       ...scale(1),
-      borderBottom: `1px solid black`,
       marginTop: rhythm(1),
     }}
   >

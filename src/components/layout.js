@@ -22,18 +22,11 @@ class Header extends React.Component {
     const { location, siteTitle } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
     return (
-      <div
-        style={{
-          ...scale(0.75),
-          marginTop: 0,
-          borderBottom: `1px solid`,
-        }}
-      >
+      <div>
         <div
           style={{
-            ...scale(0.5),
             margin: '0 auto',
-            maxWidth: rhythm(36),
+            maxWidth: rhythm(30),
             padding: rhythm(0.5),
             display: 'flex',
             justifyContent: 'space-between',
@@ -77,7 +70,7 @@ class Template extends React.Component {
         <div
           style={{
             margin: '0 auto',
-            maxWidth: rhythm(36),
+            maxWidth: rhythm(30),
             padding: `0 ${rhythm(0.5)}`,
             flex: 1,
           }}

@@ -1,7 +1,21 @@
 import Typography from 'typography';
-import Theme from 'typography-theme-wordpress-kubrick';
+import Theme from 'typography-theme-fairy-gates';
 
-delete Theme.googleFonts;
+// Headers = Lora
+// Body = Source Sans Pro
+Theme.googleFonts = [
+  {
+      name: "Lora",
+      styles: ["700"],
+    },
+    {
+      name: "Source Sans Pro",
+      styles: ["400", "400i", "700"],
+    },
+];
+Theme.headerFontFamily = ["Lora", "serif"];
+Theme.bodyFontFamily = ["Source Sans Pro", "sans-serif"];
+
 Theme.overrideThemeStyles = ({rhythm}, options) => ({
   'ul li': {
     listStyle: 'square inside',
@@ -14,6 +28,9 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   },
   'ul li:before': {
     content: 'none',
+  },
+  'a': {
+    backgroundImage: 'none',
   },
   'a:visited': {
     color: '#06c',
@@ -29,6 +46,7 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
     marginBottom: rhythm(0.25),
   },
 });
+
 const typography = new Typography(Theme);
 
 // Hot reload typography in development.

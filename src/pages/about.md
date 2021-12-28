@@ -1,6 +1,6 @@
 ---
 title: About
-tags: [about]
+tags: []
 ---
 
 I'm Rob.
