@@ -34,7 +34,7 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
     color: '#06c',
   },
   'a:visited': {
-    color: '#D81159'
+    color: '#9A5B77'
   },
   'a:hover': {
     color: '#1ca086',
