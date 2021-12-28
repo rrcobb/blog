@@ -26,7 +26,7 @@ class Header extends React.Component {
         <div
           style={{
             margin: '0 auto',
-            maxWidth: rhythm(30),
+            width: rhythm(28),
             padding: rhythm(0.5),
             display: 'flex',
             justifyContent: 'space-between',
@@ -70,7 +70,7 @@ class Template extends React.Component {
         <div
           style={{
             margin: '0 auto',
-            maxWidth: rhythm(30),
+            width: rhythm(28),
             padding: `0 ${rhythm(0.5)}`,
             flex: 1,
           }}

@@ -1,12 +1,12 @@
 ---
 title: Blogroll
 date: 2021-12-27T18:22:52-08:00
-tags: [links]
+tags: []
 ---
 
 Here are some blogs I follow. 
 
-Click through, see if you like them, and read around! If you like this, you should also check out [reviews](/tags/reviews) and [links](/tags/links)
+Click through, see if you like them, and read around.
 
 ## Coding, Education, and Tech
 - [Learnable Programming](http://worrydream.com/LearnableProgramming/)

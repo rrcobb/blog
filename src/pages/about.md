@@ -1,15 +1,13 @@
 ---
 title: About
 tags: []
+date: 2021-12-27T18:22:52-08:00
 ---
 
 I'm Rob.
 
-I'm working on building community for code teachers across bootcamps, K-12, higher ed, and online.
-
-Sign up for news and updates on [CS Education](https://csed.substack.com/)
-
-Working in CS Education means I get to talk with smart people about what better education looks like.
+I've bounced back and forth between software and education. I care a lot about 
+making education better, especially for people learning to program computers.
 
 To me, better education means
 
@@ -17,12 +15,24 @@ To me, better education means
 - more value
 - more relevant
 
+The best thing about writing online is getting to talk with people. I really love
+those conversations, so if you read anything here and want to talk, please cold 
+email or dm me on twitter.
+
+I sometimes post updates on my substack newsletter, [CS Education](https://csed.substack.com/).
+
 --
 
 I live in Washington, DC.
 
-Some things I've worked on:
+Lately, I've been working on [Kibo](https://www.kibo.school/), a new online
+university for African students. We're building a CS degree first.
 
+Some things I've worked on in the past:
+
+- [Make School](https://makeschool.org/)
+- [SchoolHouse](https://www.getschoolhouse.com/)
+- [Thinkful](https://www.thinkful.com/bootcamp/web-development/)
 - [Flatiron School](https://flatironschool.com)
 - [Fin](https://www.fin.com/)
 - [umd.io](https://umd.io/)

@@ -20,10 +20,6 @@ class BlogPostTemplate extends React.Component {
     const siteDescription = post.excerpt;
     const {previous, next} = this.props.pageContext;
 
-    const date = new Date(post.frontmatter.date)
-    // posts without dates are never 'old', I guess
-    const isOld = post.frontmatter.date && new Date().getFullYear() - date.getFullYear() > 1;
-
     return (
       <Layout siteTitle={siteTitle} location={this.props.location}>
         <Helmet
@@ -33,11 +29,14 @@ class BlogPostTemplate extends React.Component {
         />
         <Title>{post.frontmatter.title}</Title>
         <Info>
-          {post.frontmatter.date}
+          <div>
+          Updated {post.frontmatter.date}
+          </div>
+          <div>
           {post.frontmatter.tags &&
               post.frontmatter.tags.map(t => <Tag key={t} tag={t} />)}
-            </Info>
-            { isOld ? <Warning>This post is from {post.frontmatter.date}. My views have probably changed since then. If it's about technology, any code is probably broken by this point.</Warning> : null }
+          </div>
+        </Info>
             <div dangerouslySetInnerHTML={{__html: post.html}} />
             <FooterLinks>
               {previous && (

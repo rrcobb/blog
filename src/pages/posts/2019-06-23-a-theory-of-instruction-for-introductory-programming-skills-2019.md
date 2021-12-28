@@ -114,7 +114,7 @@ If you are teaching someone something about programming (and you probably are in
 
 If you write documentation, you should keep this sequencing in mind! Examples of the syntax, then space for practicing the syntax, then examples of using the syntax in patterns to solve problems, then opportunities to apply those patterns. Lots of documentation takes almost the opposite sequencing approach, starting with the abstract patterns that the construct can solve, then showing those patterns in examples, then getting into behavior of the syntax. 
 
-As a separate note - it's a shame that documentation rarely affords chances to practice or check your understanding. ☹️ . 
+As a separate note - it's a shame that documentation rarely affords chances to practice or check your understanding 😭. 
 
 Overall, this paper was a little long-winded, and the study was underpowered for the claims it wanted to make. This is frustrating! The theory seems well-aligned with other things we know about teaching CS, and I want to be more excited about sequencing instruction this way. I'll be watching with hope for these authors to return with a bigger study answering the sequencing question more definitively.
 
