@@ -3,6 +3,7 @@
   "description": "Blog. Powered by Gatsby",
   "version": "1.0.0",
   "author": "Rob Cobb <rwcobbjr@gmail.com>",
+  "engines": { "node": ">=14.15.0" },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",

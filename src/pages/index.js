@@ -33,10 +33,7 @@ class BlogIndex extends React.Component {
           meta={[{name: 'description', content: siteDescription}]}
           title={siteTitle}
         />
-        <p>I'm Rob.</p>
-        <p>
-          This is my site's homepage. Check out <Tag tag="review" text="reviews" />, <Tag tag="cs ed weekly" text="CS Ed Weekly" />, and <Tag tag="yak shave" text="yak shaves" /> 
-        </p>
+        <p> </p>
         <p>Posts from the last few years, newest first: </p>
         <div>
           <PostList posts={recent} />

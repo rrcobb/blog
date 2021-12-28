@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "name": "rob-cobb",
   "alias": ["rob.co.bb"],
   "builds": [
     {
       "src": "package.json",
-      "use": "@now/static-build",
+      "use": "@vercel/static-build",
       "config": { "distDir": "public" }
     }
   ],

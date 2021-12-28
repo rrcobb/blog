@@ -38,6 +38,7 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   },
   'a:hover': {
     color: '#1ca086',
+    textDecoration: 'underline',
    },
     'li > p': {
     marginBottom: rhythm(0.25),
