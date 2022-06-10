@@ -13,7 +13,6 @@
   ],
   "build": {
     "env": {
-      "MIXPANEL_API_TOKEN": "@mixpanel_api_key",
       "HEAP_APP_ID": "@heap_app_id"
     }
   }

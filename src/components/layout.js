@@ -61,9 +61,41 @@ class Header extends React.Component {
   }
 }
 
+let conversationStyle = `
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+ol, ul { margin: 0; }
+ol, ol + p { 
+  align-self: flex-end;
+}
+ul + p, ol + p {
+  color: grey;
+  font-size: 16px;
+}
+ul li, ol li {
+  max-width: 450px;  
+  border-radius: 16px;
+  padding: 12px 16px;
+  margin: 4px 0;
+  list-style: none;
+}
+ol li {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-bottom-right-radius: 0;
+}
+ul li {
+  background-color: rgb(239, 243, 244);
+  color: rgb(15, 20, 25);
+  border-bottom-left-radius: 0;
+}
+`
+
 class Template extends React.Component {
   render() {
-    const { location, siteTitle, children } = this.props;
+    const { style, location, siteTitle, children } = this.props;
     const rootPath = `${__PATH_PREFIX__}/`;
 
     return (
@@ -75,7 +107,9 @@ class Template extends React.Component {
       }}
     >
         <Header siteTitle={siteTitle} location={location} />
+        { style == 'conversation' && <style>{conversationStyle}</style>}
         <div
+        className="container"
         style={{
           margin: '0 auto',
           width: rhythm(28),

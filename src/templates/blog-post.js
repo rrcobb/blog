@@ -2,18 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import {Link, graphql} from 'gatsby';
 import get from 'lodash/get';
-import { withMixpanel } from 'gatsby-plugin-mixpanel'
 
 import Layout from '../components/layout';
 import {Title, Info, Warning, FooterLinks, Tag} from '../components/helpers';
 
 class BlogPostTemplate extends React.Component {
-  componentDidMount() {
-    const post = this.props.data.markdownRemark;
-    const { mixpanel } = this.props
-    mixpanel.track(`${post.frontmatter.title}`); // send event with post name to mixpanel
-  }
-
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
@@ -21,7 +14,7 @@ class BlogPostTemplate extends React.Component {
     const {previous, next} = this.props.pageContext;
 
     return (
-      <Layout siteTitle={siteTitle} location={this.props.location}>
+      <Layout style={post.frontmatter.layout || 'post'} siteTitle={siteTitle} location={this.props.location}>
         <Helmet
           htmlAttributes={{lang: 'en'}}
           meta={[{name: 'description', content: siteDescription}]}
@@ -55,7 +48,7 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default withMixpanel()(BlogPostTemplate);
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -73,6 +66,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMM DD, YYYY")
         tags
+        layout
       }
     }
   }

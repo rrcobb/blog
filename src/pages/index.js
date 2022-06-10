@@ -3,19 +3,11 @@ import {graphql} from 'gatsby';
 import get from 'lodash/get';
 import partition from 'lodash/partition'
 import Helmet from 'react-helmet';
-import { withMixpanel } from 'gatsby-plugin-mixpanel'
 
 import {PostList, Tag, Foldable} from '../components/helpers';
 import Layout from '../components/layout';
 
 class BlogIndex extends React.Component {
-  componentDidMount() {
-    const { mixpanel } = this.props
-    mixpanel.track(`index`); // send event to mixpanel
-    window.mixPanel = mixpanel;
-    console.log('should be hitting a mixpanel track')
-  }
-
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title');
     const siteDescription = get(
@@ -47,7 +39,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default withMixpanel()(BlogIndex);
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query {

@@ -35,7 +35,7 @@ export const Title = ({children}) => (
 );
 
 export const Info = ({children}) => (
-  <p
+  <div
     style={{
       ...scale(-1 / 5),
       display: 'block',
@@ -44,7 +44,7 @@ export const Info = ({children}) => (
     }}
   >
     {children}
-  </p>
+  </div>
 );
 
 export const Warning = ({children}) => (
