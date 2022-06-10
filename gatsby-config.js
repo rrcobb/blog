@@ -42,19 +42,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Rob Cobb`,
-        short_name: `Rob Cobb`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/assets/rob-icon.png`,
-      },
-    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
