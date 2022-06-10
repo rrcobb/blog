@@ -1,6 +1,6 @@
 ---
 layout: conversation
-title: Legibility for who
+title: Legibility for who (conversation with Tara Baumgarten)
 description: A conversation with Tara Baumgarten about legibility
 date: 2022-06-10T12:44:14-06:00
 tags: [legibility, schools]
