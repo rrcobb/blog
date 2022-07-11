@@ -1,48 +1,64 @@
 ---
 layout: post
-title: Review: Play in Predictive Minds: A Cognitive Theory of Play
+title: "Play in Predictive Minds: A Cognitive Theory of Play"
 description: A new paper about play and the predictive processing model of cognitive behavior
 date: 2022-07-08T12:04:06-06:00
-tags: [games, learning, paper summary, review, theory of instruction]
+tags: [learning, paper summary, review, theory of instruction]
 ---
 
-The Predictive Processing (PP) account of how minds work is awesome. It's a unified
-theory of psychology and neuroscience, and it seems to have strong
-theoretical and empirical support.
+_Are you PP-pilled?_ 
 
-What minds do is predict. They predict their sensory inputs, and doing so allows
-them to _ignore_ most of the actual sensory data -- they just have to update
-based on errors. Predictions flow _down_ from 'higher level' nodes, and updates
-flow _up_ as the world corrects the predictions.
+The Predictive Processing (PP) model is an awesome account of cognition. It's a unified
+theory of psychology and neuroscience, it seems to have strong
+theoretical and empirical support, and it tries to explain an ambitious 
+eternal question: 'how do minds work?'.
+
+What minds do is _predict_. They predict their sensory 
+inputs, and that allows them to _ignore_ most of the actual sensory data. They 
+just have to update based on errors. Predictions flow _down_ from higher level 
+nodes, and updates flow _up_ as feedback from the world corrects the predictions.
 
 In the PP model, _action is a form of prediction_. Mirroring the way the mind 
 reduces error by updating its internal model based on sensory data, it
 can also reduce model error by _changing the world_. Predict that you are
-drinking your coffee? Reduce that model error by moving your arm towards the
+drinking your coffee? Reduce the model error by moving your arm towards the
 counter, closing your hand on the handle of the mug, and bringing the coffee to
 take a sip.
 
 Granted, this is a _weird_ way to think about action. We don't normally think of
 ourselves as "reducing model error" when we decide what to do and then do it.
-Still... the PP folks seem like they are getting cool results in the lab and in
-the theory-mills by lumping everything minds do under the big heading
-"prediction".
+Still... the PP folks are getting cool results in the lab and in the 
+theory-mills by lumping everything minds do under the big heading "prediction".
 
-## Play
+## Today's Paper
 
 Today's paper is [Play in Predictive Minds: A Cognitive Theory of
 Play](/play-in-predictive-minds.pdf) by Andersen, Kiverstein, Miller, & 
 Roepstorff (2022). From the title and my intro, you can guess that it's about
 play and the PP model.
 
-I'm going to pull some key quotes and then comment / summarize in line. The
-paper is a little long, but if something catches your eye, go forth and read the
-full thing!
+I really like this paper. It's long-winded and a little hard to read if you
+don't share the context the authors do, but it's attempting to draw together
+really disparate threads about cognition and learning. I have been wondering
+about the questions the authors attempt to answer for a few years.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If the predictive processing model of the mind is right, what will the practical implications be for learning and teaching?</p>&mdash; Rob Cobb (@robcobbable) <a href="https://twitter.com/robcobbable/status/1334640102170120192?ref_src=twsrc%5Etfw">December 3, 2020</a></blockquote>
+
+## Intro
+
+I'm going to pull some key quotes and then react in-line. The
+paper is a little long, but if something from the summary catches your eye, go 
+forth and [read the full thing!](/play-in-predictive-minds.pdf)
 
 > We propose that play is a behavior in which the agent, in contexts of freedom from the demands of certain competing cognitive systems, deliberately seeks out or creates surprising situations that gravitate toward sweet-spots of relative complexity with the goal of resolving surprise.
 
+Okay, play is about creating and resolving surprising situations.
+
 > We further propose that play is experientially associated with a feel-good quality because the agent is reducing significant levels of prediction error (i.e., surprise) faster than expected. Such a strategy of seeking and creating surprising situations, we argue, is in many ways optimal for learning in that it not only maximizes the speed at which learning takes place, but also enables optimized learning strategies, even in instances where opportunities to learn may be scarce.
 
+Seems like this **prediction error** thing is really important. It seems
+counterintuitive that play, which deliberately _creates_ surprising and novel 
+situtations, might actually be about _reducing_ surprise in the long run.
 
 > the theory integrates the role of positive valence in play, that is, **it explains why play is fun**
 
@@ -50,28 +66,57 @@ Bold! (emphasis mine)
 
 > it expands on the relationship between emotions and mood states, that is, playfulness, as they often occur in the context of play
 
+Really going for broke in this paper. Answering "why is it fun to play" isn't enough!
+They're also going to (partially) answer "how do emotions relate to moods".
+
 > A consistent theme in cognitive theories of play is that children are motivated to play to make progress in learning, reducing their uncertainty, and allowing them to better predict the effects of their actions on the world 
 
 Okay, so, one thing that takes a little getting used to is this idea that play
-is for learning. On the surface, it seems wrong! 'Play' feels so different from
-the contexts that we associate with 'learning' that this feels like a big leap.
-It's also the case that kids don't _consciously_ decide to play in order to 
-learn, or something alien like that. These researchers have met kids before!
-They just use words a little differently.
+is for learning. On the surface, it seems wrong! 
+
+'Play' feels so different from the connotations that we associate with 'learning' 
+that 'play is for learning' feels like a big leap. The paper isn't saying that 
+kids _consciously_ decide to play in order to learn, or something alien like that. 
+These researchers have met kids before! They just use words a little differently.
 
 What makes a game fun? Well... it's _not boring_. It's... interesting.
-It's...surprising! It has an element of novelty! When these researchers say
-that children play because of 'motivation to make progress in learning', they
-mean something like 'children play games that are interesting and novel' not,
-like, they play because they want to do better in their math class.
+It's...surprising! It has an element of novelty!
+
+When these researchers say that children play because of 'motivation to make 
+progress in learning', they mean something like 'children play games that are 
+interesting and novel' not, like, they play because they want to do better 
+in their math class.
 
 They do come out and say it:
 
 > The motivation to gain new information that reduces overall uncertainty in play suggests that children should be attracted toward novelty, ambiguity, and surprise in play.
 
+For me, it was super important to keep this distinction in mind through the whole paper -- it's
+not about what kids are _thinking about_ when they play, or their conscious
+decision making process. Instead, it's about _what the brain is seeking_.
+
+A similar distinction to remember is that in this paper, 'learning' means
+'changes to the brain's model of the world'. Not education, not learning that's
+connected to a long-term goal, not learning to do something. Just 'brain
+updates'.
+
+A concrete example from the paper:
+
 > These authors [referring to Spinka et al., 2001] argue that play fighting and locomotor play are forms of “training for the unexpected,” and that they allow mammals to develop flexible motor responses and emotional coping strategies for unexpected situations. Spinka et al argue that mammals “actively seek and create unexpected situations in play through self-handicapping; [ … ] actively putting themselves into disadvantageous positions and situations”
 
+The animals are not play fighting to get better at math. They are developing
+flexible motor responses.
+
+Note that play is about _actively seeking the unexpected_. We'll also see
+self-handicapping again later on.
+
 > [several studies that all show that children play more with toys or situations that are confusing or surprising: Bonawitz et al. (2012), Schulz and Bonawitz (2007), Schulz et al. (2008),  van Schijndel et al. (2015), Butler & Markman (2010), Stahl and Feigenson (2015), Stahl & Feigenson (2019), Perez & Feigenson (2020)]
+
+The bibliography for this paper is huge. Tons of references and citations. These
+are all studies that support the author's starting point that play is about
+novelty and learning about the world.
+
+Some of the papers they cite seem super fun:
 
 > In adults, a recent study (Heimann & Roepstorff, 2018) provided participants with five sets of six LEGO bricks, and instructed them to build a small duck. Participants were assigned to two conditions: A playful condition in which they were asked to build ducks in a way that felt playful to them, and a nonplayful condition in which participants were asked to build ducks in a way that did not feel playful at all. While participants created a multitude of different ducks in the playful condition, they tended to reproduce similarly designed ducks in the nonplayful condition. [...] The study found that participants in the nonplayful condition generally reported feelings of stress, obligation, and boredom, while participants in the playful condition reported feeling autonomy and, interestingly, feelings of surprise over the ducks they had ended up building. The study showcases a somewhat counterintuitive phenomenon, namely that **individuals can surprise themselves during solitary play with objects.**
 
@@ -80,45 +125,71 @@ They do come out and say it:
 Wow. Cueing the task differently totally changes the emotional relationship
 to the task! Reminds me strongly of ["Let's think step by step" prompts for LLMs](https://twitter.com/arankomatsuzaki/status/1529278580189908993).
 
+Also, I'm struggling to picture the non-playful condition here. Telling adults to
+build LEGO ducks seems inherently playful! Maybe they recruited this guy as an
+experimenter.
+
+![Office Spaces's Lumberg asks you to come in on Sunday to make LEGO
+ducks](/lego-lumberg.jpeg)
+
 > In sum, belief-violation, ambiguity and novelty provide children with learning opportunities to improve their intuitive theories of the world and its causal workings.
 
+Cool.
+
 ## The Sweet Spot
+
+How confusing or novel should play be? Some kids like a lot of chaos, but others
+not so much.
 
 > learners are attracted to surprising and novel information that tends to gravitate toward a sweet spot of complexity that is neither too simple, nor too complex given what they already know.
 
 > Intuitively speaking, it seems likely that overly predictable play is boring and overly unpredictable play chaotic.
 
+Cool, that answers that.
+
 > Infants, for example, seem to be guided by the so-called “Goldilocks principle” in their preference for visual stimuli which are neither too simple nor too complex
+
+(I'm cutting a lot of the citations, there's a lot more backing up these claims
+in the actual paper)
 
 > The immersive experience of “flow,” characteristic of playful states, tends to occur during tasks which are just within reach of one’s ability
 
+Ooh, wasn't expecting to see flow in this paper! What a nice surprise.
+
 > play frequently involves self-handicapping behavior, like hopscotch, where individuals deliberately make already learned tasks harder and thus more surprising for themselves
+
+I sometimes analogize learning exercises to resistance training, where you
+impose some artificial constraints on your movements to get some benefit. Now
+I'm gonna switch my go-to analogy to hopscotch, since it's so vivid and fun!
 
 > in a recent study on play and fear, where older children and adult visitors to a haunted attraction were equipped with heart rate monitors and asked to report on their experience (Andersen et al., 2020) [...] self-reported enjoyment had an inverted U-shaped relationship with self-reported fear
 
 There's a sweet spot of challenge / novelty / complexity. This isn't a big
-surprise! It bears a striking resemblance to the [Zone of Proximal Development](https://en.wikipedia.org/wiki/Zone_of_proximal_development) or less formally, the [Learning Zone](https://www.mindtools.com/pages/article/learning-zone-model.htm) (between the Comfort Zone and Panic Zone).
+surprise! To me, it bears a striking resemblance to the [Zone of Proximal Development](https://en.wikipedia.org/wiki/Zone_of_proximal_development) or less formally, the [Learning Zone](https://www.mindtools.com/pages/article/learning-zone-model.htm) (between the Comfort Zone and Panic Zone).
 
-It also gives a cognitive theory that supports phrases like "low floors, high
-ceilings, wide walls". We want to create environments where students can
-navigate to the appropriate level of complexity and challenge for them.
-Importantly, that level will change as students become more comfortable, so in
+It also gives a cognitive theory to support education catchphrases like "low 
+floors, high ceilings, wide walls". We want to create environments where
+learners navigate to the appropriate level of complexity and challenge for them.
+Importantly, that level will change as students become more comfortable! In
 order for it to feel 'playful', the difficulty / novelty / complexity has to
 increase.
 
 If you've ever played Portal (or other games that have a quirky physics or
-'fun' set of world-rules to learn), you've seen this. The game is fun because it
-violates your expectations, but only so much at once. There's a steady drip of
-new challenges and surprises to master.
+'fun' set of world-rules to learn), you've seen the difficulty ramp in action. 
+The game is fun because it violates your expectations, but only a little bit at
+a time. There's a steady drip of new challenges and surprises to master.
 
 > a strong driver of curiosity is the learner’s metacognitive estimates of their own prior knowledge, meaning that learners will have their curiosity piqued when they think that they are close to knowing the answer to a question
 
-Again -- not their explicit, articulable, conscious estimate. The _feeling_ of
-curiousity is a signal that you've got enough information to put together the
-answer!
+Again -- this is not student's explicit, articulable, conscious estimate of 
+their own knowledge. The _feeling_ of curiousity is a signal that you've got 
+enough information to put together a new answer!
 
 This is really cool, imo. Students are uncurious if something is too hard, or if
 there's no mystery left to resolve.
+
+Emotions are a guide to _something_. Curiosity is a guide to our brain's hidden 
+estimate of how close we are to learning something new. Seems important!
 
 ## Predictive Processing
 
@@ -129,6 +200,9 @@ the words of the paper authors:
 
 > Predictions are thought to occur at multiple hierarchically organized levels which simultaneously operate across different spatiotemporal scales. This can be conceptualized as a hierarchical generative model (Friston, 2008; Parr & Friston, 2018)3 where lower levels deal with states of affairs happening at faster time scales and are good for handling detail, whereas higher levels deal with regularities operating at slower time scales, which are usually more general and abstract in nature.
 
+I didn't focus on the levels and heirarchy bit so much in my summary, but it's a
+core part of the theory.
+
 > When mismatches between predictions and sensory input arise, the organism has
 > two main options available to minimize the overall level of prediction error. It
 > can either update predictions to better account for the sensory input through
@@ -137,14 +211,17 @@ the words of the paper authors:
 > predictions, sometimes preventing the errors from arising in the first place
 > (Feldman & Friston, 2010; Friston, 2009; Friston et al., 2010).
 
-okay, yep, my summary matches the authors'. Experientially: This is boring to
+Cool, my summary mostly matches the authors'. Experientially: This is boring to
 read, because it doesn't contain much that's _new_. (!!!)
 
 > Imagine, for example, that you are waiting for your partner at a designated meeting place. As you see your partner approaching from afar, you eagerly wave. As your “partner” approaches, however, your prediction errors start to increase, forcing your internal model to rapidly update. Suddenly, you realize that you have been waving at a complete stranger. Conversely, it may be the case that your partner is sitting on a bench with their back turned to you. Since you are still not entirely sure that it is in fact your partner sitting there, you attempt to reduce your prediction error through action: You move around the bench, trying to find a better angle from which to catch a glimpse of the face of the person sitting there. Finding that it is in fact your partner, you have now successfully aligned the world with your predictions.
 
 There's lots more to read about the PP model. The book treatment of it is Andy
 Clark's [Surfing Uncertainty: Prediction, Action, and the Embodied
-Mind](https://www.amazon.com/Surfing-Uncertainty-Prediction-Action-Embodied/dp/0190217014). It's... pretty academic. Most readers of this summary might be better off with the excellent (and _readable_) [SSC review](https://slatestarcodex.com/2017/09/05/book-review-surfing-uncertainty/). Having read the review, and then purchased the book, I think I only made it about halfway through. It's so comprehensive!
+Mind](https://www.amazon.com/Surfing-Uncertainty-Prediction-Action-Embodied/dp/0190217014). 
+It's... pretty academic. Most readers of this summary might be better off with the excellent (and _readable_) [SSC review](https://slatestarcodex.com/2017/09/05/book-review-surfing-uncertainty/). 
+Having read the review, and then purchased and attempted to read the book, I 
+think I only made it about halfway through. It's so comprehensive!
 
 > In sum, predictive processing “depicts perception, cognition, and action as the closely woven products of a single kind of inferential process”
 
@@ -155,6 +232,7 @@ Now the heart of what the paper is about:
 > When children are well fed, warm, and healthy, they do one thing above all: play. It seems quite clear that when they do so, they thoroughly enjoy exploration, experimentation, and surprise. But why? Why do children engage in surprise-inducing activities such as pretend, play-fight or hopscotch if their brains are fundamentally designed to reduce prediction errors? Why would a brain on an eternal quest to minimize predictions errors dabble in something as anarchic as play where unpredictability and error abound (Sun & Firestone, 2020)?
 
 The short answer:
+
 > surprise, understood as short term, significant increases in prediction errors, may result in long-term error minimization. 
 
 Nice.
@@ -353,10 +431,13 @@ reducing predictive error faster than your brain's expected rate).
 
 --
 
+Overall, I really like this paper. It'd have been more fun if it was shorter,
+and if they didn't talk like aliens, but that's academic writing for ya!
+
 > It may be that when agents have fun together, they do so by collaboratively reducing error for each other.
 
 That's my idea of a good time 😉
 
 Hope this was your idea of a good time too! If it was, let's collaboratively reduce
-error for each other (like, message me what you think, or share the link with a
-friend.)
+error for each other 😅. Message me what you think, or share the link with a
+friend.

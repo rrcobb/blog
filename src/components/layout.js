@@ -93,6 +93,25 @@ ul li {
 }
 `
 
+const twitterEmbedStyle = `
+.twitter-tweet {
+  max-width: 600px;
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  padding: 1em;
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+  line-height: 22.4px;
+  background-color: rgb(255,255,255);
+}
+
+.twitter-tweet a {
+  display: block;
+}
+`
+
+
 class Template extends React.Component {
   render() {
     const { style, location, siteTitle, children } = this.props;
@@ -108,6 +127,7 @@ class Template extends React.Component {
     >
         <Header siteTitle={siteTitle} location={location} />
         { style == 'conversation' && <style>{conversationStyle}</style>}
+        <style>{twitterEmbedStyle}</style>
         <div
         className="container"
         style={{

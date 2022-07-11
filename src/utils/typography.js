@@ -16,7 +16,7 @@ Theme.googleFonts = [
 Theme.headerFontFamily = ["Lora", "serif"];
 Theme.bodyFontFamily = ["Source Sans Pro", "sans-serif"];
 
-Theme.overrideThemeStyles = ({rhythm}, options) => ({
+Theme.overrideThemeStyles = ({rhythm, adjustFontSizeTo}, options) => ({
   'ul li': {
     listStyle: 'square inside',
   },
@@ -50,6 +50,12 @@ Theme.overrideThemeStyles = ({rhythm}, options) => ({
   li: {
     marginBottom: rhythm(0.25),
   },
+  blockquote: {
+    ...adjustFontSizeTo('18px'),
+    "font-style": 'normal',
+    "background-color": "hsla(0, 0%, 95%, 1)",
+    padding: rhythm(0.5)
+  }
 });
 
 const typography = new Typography(Theme);

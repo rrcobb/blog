@@ -30,18 +30,18 @@ class BlogPostTemplate extends React.Component {
               post.frontmatter.tags.map(t => <Tag key={t} tag={t} />)}
           </div>
         </Info>
-            <div dangerouslySetInnerHTML={{__html: post.html}} />
-            <FooterLinks>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
+        <div dangerouslySetInnerHTML={{__html: post.html}} />
+        <FooterLinks>
+          {previous && (
+            <Link to={previous.fields.slug} rel="prev">
+              ← {previous.frontmatter.title}
+            </Link>
+          )}
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
+            )}
             </FooterLinks>
           </Layout>
     );
