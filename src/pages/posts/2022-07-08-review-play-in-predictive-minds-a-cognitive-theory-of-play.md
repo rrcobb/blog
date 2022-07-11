@@ -118,9 +118,8 @@ novelty and learning about the world.
 
 Some of the papers they cite seem super fun:
 
-> In adults, a recent study (Heimann & Roepstorff, 2018) provided participants with five sets of six LEGO bricks, and instructed them to build a small duck. Participants were assigned to two conditions: A playful condition in which they were asked to build ducks in a way that felt playful to them, and a nonplayful condition in which participants were asked to build ducks in a way that did not feel playful at all. While participants created a multitude of different ducks in the playful condition, they tended to reproduce similarly designed ducks in the nonplayful condition. [...] The study found that participants in the nonplayful condition generally reported feelings of stress, obligation, and boredom, while participants in the playful condition reported feeling autonomy and, interestingly, feelings of surprise over the ducks they had ended up building. The study showcases a somewhat counterintuitive phenomenon, namely that **individuals can surprise themselves during solitary play with objects.**
+> In adults, a recent study (Heimann & Roepstorff, 2018) provided participants with five sets of six LEGO bricks, and instructed them to build a small duck. Participants were assigned to two conditions: A playful condition in which they were asked to build ducks in a way that felt playful to them, and a nonplayful condition in which participants were asked to build ducks in a way that did not feel playful at all. While participants created a multitude of different ducks in the playful condition, they tended to reproduce similarly designed ducks in the nonplayful condition. [...] The study found that participants in the nonplayful condition generally reported feelings of stress, obligation, and boredom, while participants in the playful condition reported feeling autonomy and, interestingly, feelings of surprise over the ducks they had ended up building. The study showcases a somewhat counterintuitive phenomenon, namely that **individuals can surprise themselves during solitary play with objects.** [minor edits for clarity, emphasis mine].
 
-(minor edits for clarity and emphasis).
 
 Wow. Cueing the task differently totally changes the emotional relationship
 to the task! Reminds me strongly of ["Let's think step by step" prompts for LLMs](https://twitter.com/arankomatsuzaki/status/1529278580189908993).
@@ -145,22 +144,32 @@ not so much.
 
 > Intuitively speaking, it seems likely that overly predictable play is boring and overly unpredictable play chaotic.
 
-Cool, that answers that.
+Checks out. Boring means that something is predictable, which means there's
+nothing more for your mind to learn about it. Infants laugh outrageously at
+things that are mundane for us olds.
 
 > Infants, for example, seem to be guided by the so-called “Goldilocks principle” in their preference for visual stimuli which are neither too simple nor too complex
 
-(I'm cutting a lot of the citations, there's a lot more backing up these claims
+It's wild to see what entertains an infant! Stimuli!
+
+(btw, I'm cutting a lot of the citations, there's a lot more backing up these claims
 in the actual paper)
 
 > The immersive experience of “flow,” characteristic of playful states, tends to occur during tasks which are just within reach of one’s ability
 
-Ooh, wasn't expecting to see flow in this paper! What a nice surprise.
+Ooh, wasn't expecting to see flow in this paper! What a nice surprise. I don't
+know that 'fun' is the same thing as flow, but it's interesting that the authors
+posit a relationship. Imo, flow can be more boring, play almost definitionally
+can't be boring.
 
 > play frequently involves self-handicapping behavior, like hopscotch, where individuals deliberately make already learned tasks harder and thus more surprising for themselves
 
 I sometimes analogize learning exercises to resistance training, where you
 impose some artificial constraints on your movements to get some benefit. Now
 I'm gonna switch my go-to analogy to hopscotch, since it's so vivid and fun!
+
+Imposing constraints on yourself to make something harder is super
+characteristic of play, and it feels weird that I didn't see it until now!
 
 > in a recent study on play and fear, where older children and adult visitors to a haunted attraction were equipped with heart rate monitors and asked to report on their experience (Andersen et al., 2020) [...] self-reported enjoyment had an inverted U-shaped relationship with self-reported fear
 
@@ -182,14 +191,19 @@ a time. There's a steady drip of new challenges and surprises to master.
 > a strong driver of curiosity is the learner’s metacognitive estimates of their own prior knowledge, meaning that learners will have their curiosity piqued when they think that they are close to knowing the answer to a question
 
 Again -- this is not student's explicit, articulable, conscious estimate of 
-their own knowledge. The _feeling_ of curiousity is a signal that you've got 
+their own knowledge. The _feeling_ of curiosity is a signal that you've got 
 enough information to put together a new answer!
 
 This is really cool, imo. Students are uncurious if something is too hard, or if
 there's no mystery left to resolve.
 
-Emotions are a guide to _something_. Curiosity is a guide to our brain's hidden 
-estimate of how close we are to learning something new. Seems important!
+Emotions are our 'readout screen' for our brain's state. They reliably tell
+us... something. Curiosity is a signal of our brain's hidden estimate of how 
+close we are to learning something new. Seems important!
+
+Telling kids to 'follow their curiosity' is like telling them to 'go north' on
+the compass. It's reliably pointing towards experiences that are likely to turn
+into learning... at least, their brain's best guess for that!
 
 ## Predictive Processing
 
@@ -211,8 +225,8 @@ core part of the theory.
 > predictions, sometimes preventing the errors from arising in the first place
 > (Feldman & Friston, 2010; Friston, 2009; Friston et al., 2010).
 
-Cool, my summary mostly matches the authors'. Experientially: This is boring to
-read, because it doesn't contain much that's _new_. (!!!)
+My summary mostly matches the authors'. Experientially: This is boring to
+read, because it doesn't contain much that's new. (!!!)
 
 > Imagine, for example, that you are waiting for your partner at a designated meeting place. As you see your partner approaching from afar, you eagerly wave. As your “partner” approaches, however, your prediction errors start to increase, forcing your internal model to rapidly update. Suddenly, you realize that you have been waving at a complete stranger. Conversely, it may be the case that your partner is sitting on a bench with their back turned to you. Since you are still not entirely sure that it is in fact your partner sitting there, you attempt to reduce your prediction error through action: You move around the bench, trying to find a better angle from which to catch a glimpse of the face of the person sitting there. Finding that it is in fact your partner, you have now successfully aligned the world with your predictions.
 
@@ -235,7 +249,7 @@ The short answer:
 
 > surprise, understood as short term, significant increases in prediction errors, may result in long-term error minimization. 
 
-Nice.
+Short term trades off against the long term.
 
 > Children may, for example, experience surprise in the short term when playing with the bathroom faucet (signifying that their predictions have been violated), but this may reduce the amount of prediction errors associated with using the faucet in the long term.
 
@@ -256,7 +270,14 @@ error is fun?
 
 > the predictive processing framework proposes that all explorative behavior [...] can be explained with reference to a single cognitive mechanism: Actual or expected prediction error minimization
 
-Yeah, that's definitely predictive processing. It's _all_ prediction!
+That's definitely predictive processing. It's _all_ prediction!
+
+It gets me thinking about the subjective experiential difference between
+reducing expected vs. actual prediction error. Reducing _actual_ error means
+making the world fit your model -- successfully achieving some goal. Reducing
+_expected_ error is like learning a new fact about the world. It doesn't 
+necessarily feel the same as _success_ in changing the world -- it feels good 
+in some other way.
 
 > expected surprise summons up an irresistible desire to explore, to handle, and to experiment—in short, to play.
 
@@ -264,9 +285,14 @@ Yeah, that's definitely predictive processing. It's _all_ prediction!
 
 > Whereas child cognition is characterized by a desire to learn through exploration, adult cognition is characterized by a desire to exploit what is already known to plan and make things happen. The child’s motivation for active exploration and play is in tension with adult cognition that is characterized by “attentional focus, inhibition and executive function and behaviors like long-term, goal-directed planned action”
 
-👀
-
 oops, designed schools wrong 😳
+
+Adults don't play like kids do - they are trying to actually succeed, not just
+'fool around'. They make the trade-off differently between exploring new things
+(play) and actually trying to succeed.
+
+(The authors bring up explore/exploit and 'model temperature' and simulated
+annealing, in case there are any annealing stans in the audience.)
 
 ## Surprise and Fun
 
@@ -294,11 +320,12 @@ Okay, so maybe this is the answer for why winning feels good? Acting to make the
 world conform to our (predictions/desires) is satisfying. The thing where PP
 blurs the boundary between a desire and a prediction shows up here; we have
 different words for 'goal' and 'expectation', but PP doesn't think those are
-really so different in the brain. When you win, you are reducing actual
-predictive error, because you make the world conform to your expectation.
-"Faster than expectation" here might correspond to winning in situations that
-were unlikely or more challenging; beating the big boss is more fun than beating
-the little grunt.
+really so different in the brain. 
+
+When you win, you are reducing actual predictive error, because you make the 
+world conform to your expectation. "Faster than expectation" here might 
+correspond to winning in situations that were unlikely or more challenging; 
+beating the big boss is more fun than beating the little grunt.
 
 ## Getting to the Goldilocks point
 
@@ -309,14 +336,15 @@ the little grunt.
 > this characterizes a fundamental aspect of play: The tireless pursuit of just-right surprises
 
 Seeking novelty but not too much difficulty... this is what play looks like!
-Kids get intimidated / frustrated / turned off by things that seem to hard, and
-bored by things that are old / too easy. Seems nice to have a theory that
-matches our intutions about what play behaviors are like.
+
+Kids get intimidated, frustrated, or turned off by things that seem to hard, and
+bored by things that are old or too easy. I'm glad that the theory matches our 
+intutions about what play behaviors are like.
 
 > For example, children may build a block tower to see what happens when they knock it over; they may transform a banal piece of asphalt into a hopscotch grid; and they may turn a dreary stack of blankets into a fort to defend the center of the living room. Through these means, **in a hunt for positive valence, children create and establish an environment tailored to the generation and further investigation of surprise and uncertainty.**
 
-'Creating surprise and uncertainty' isn't an _obvious_ insight about what
-characterizes play, but it does seem like a _true_ insight.
+'Creating surprise and uncertainty' isn't an obviously what
+characterizes play, but it does seem true.
 
 > One could say that play is not only about epistemic foraging, it is also about epistemic farming.
 
@@ -326,8 +354,14 @@ I _love_ this quote. "Epistemic foraging" and "epistemic farming" are so evocati
 
 With one hand tied behind my back!
 
-It's funny to think of some games that are basically just this! I'm reminded of 'HORSE', 
-where players alternate turns attempting to make difficult shots (especially basketball) usually by self-imposing handicaps,.
+It's funny to think of some games that are basically just this dynamic.
+
+As kids, we played a lot of 'HORSE'. Players would alternate turns, attempting 
+to make difficult shots (especially basketball, but any net sport works). Very
+often, we'd self-impose handicaps, like "off-handed" or "behind the back", to
+make it more challenging.
+
+What a weirdly pure version of play!
 
 > The reason why children, in ways that might seem quite pointless, may actively create surprising situations and environments that they eventually find ways to resolve is because doing so feels good.
 
@@ -359,33 +393,23 @@ With one arm behind my back!
 
 > clowning and teasing can take endless forms, but what these forms share is a violation of normal expected patterns of social life
 
-endless clowning, yeah, checks out
+endless clowning, yeah, checks out (@ my brothers)
 
 > children not only infer playful behavior from observed violations of rational actions, but take on unnecessary costs themselves and perform inefficient actions
 
-like balancing on the curb when walking on the sidewalk, gotcha
+like balancing on the curb when walking on the sidewalk, gotcha, gotcha
 
 >  pretend play is much like the imaginary world “Twin Earth,” a concept that philosophers sometimes use in their thought experiments
 
-philosophers acting like children, checks out
+philosophers acting like children, yep
 
 > opportunities of exploring different strategies for error reduction, including social strategies for negotiation and making the world conform to the agent’s expectations (e.g., “[W]ill you be the king, Dad? … No, you can’t be the prince, cause there is no prince on Atecopia, so you can only be King”, Andersen, 2022).
 
-these researchers have indeed met children
+These researchers have indeed met children!
 
-## Conclusion
+## Mood
 
-Okay, so what's it all mean for us?
-
-One idea is that if you are bored, you can deliberate introduce constraints to
-make things more fun for yourself. It's sort of an obvious trick, but this is a
-good reminder that you can bring play and joy into your life on purpose.
-
-> we speculate that proneness to boredom and a proclivity to play may act as a creative stimulus for cultural innovation
-
-Creative people are playful! Playful people are creative!
-
-The authors have a big digression into Mood, which seems cool and related, but
+The authors have a big digression into mood, which seems cool and related, but
 less certain than the rest of the paper:
 
 > Moods are often described as “generalized emotions,” emotions that are
@@ -393,9 +417,9 @@ less certain than the rest of the paper:
 
 Big if true! 
 
-Learning / playing / having fun _in general in your life_ could
-make you happy _in your whole life_. This on the speculative end of the paper, 
-but it would have major implications for overall mental health.
+Learning, playing, and having fun _in general in your life_ could
+make you happy _in your whole life_. This on the speculative end of the paper,
+but it seems like it has implications for overall mental health.
 
 > In this perspective, moods reflect a sort of emotional “momentum”—when the agent feels rewarded for doing better than expected, it increasingly expects such rewards to keep on coming (and conversely, when agents are doing worse than expected, it incrementally expects more bad times ahead)
 
@@ -405,14 +429,44 @@ Mood is big emotion, __ is big mood.
 
 🤯
 
+**The opposite of play is not work, it is depression**
+
+Feels very true, but it's also so quotable that I don't know if I am a fair
+judge of its true insightfulness.
+
+## Conclusion
+
+Okay, so what's it all mean for us?
+
 As always, I'm looking for the implications for learning design. 
 
-It's not new to try to tune the difficulty, novelty, and surprise learn so that the pace and
-challenge are appropriate. Framing 'play' as what success looks like here,
-though, is pretty new! **If you've tuned your difficulty appropriately, learning
-will feel like playing**. Boredom and frustration are signals that the design is
-too easy (or not novel enough) or too hard. In the brain of the learner, the
-expectation should be that learning is _fast_, and that will feel fun.
+There's been a long-standing call to "make learning fun". I think this paper
+basically says that, in the PP model of the world, "fun" means that you're
+learning, and if it's not fun, you aren't learning (or, at least, aren't
+reducing predictive error faster than your brain's expected rate).
+
+It's not new to try to tune a learning experience so that the difficulty, pace, 
+and challenge are appropriate. What is new is to set 'play' as the goal for what
+successful pacing looks like! 
+
+**If you've tuned your difficulty appropriately, learning
+will feel like playing**.
+
+Boredom and frustration are signals that the design is too easy (or not novel 
+enough) or too hard. If you tune the pace so that the learner's brain expects to
+learn quickly, then they will feel curious. If they are currently learning 
+quickly, that will feel fun to them.
+
+> we speculate that proneness to boredom and a proclivity to play may act as a creative stimulus for cultural innovation
+
+Creative people are playful! Playful people are creative!
+
+Also... playful means that you get bored easily. Ummm... don't know what to do
+about that one 😬.
+
+One idea is that if you are bored, you can deliberately introduce constraints to
+make things more fun for yourself. It's sort of an obvious trick, but this is a
+good reminder that you can bring play and joy into your life on purpose.
 
 Expectations matter, and they are socially contingent:
 
@@ -420,14 +474,9 @@ Expectations matter, and they are socially contingent:
 
 > results suggest that “children consider others’ knowledge and selectively interpret others’ surprise as vicarious prediction error to guide their own exploration [Wu and Gweon, 2021].
 
-In these reviews, I call out things that I think are surprising! I am guiding
-your attention to things that, to me, should be novel or interesting, or cause
-you to update. That's... fun?
-
-There's been a long-standing call to "make learning fun". I think this paper
-basically says that, in the PP model of the world, "fun" means that you're
-learning, and if it's not fun, you aren't learning (or, at least, aren't
-reducing predictive error faster than your brain's expected rate).
+In these reviews, I try to call out things that I think are surprising! I am 
+guiding your attention to things that, to me, seem novel or interesting, or 
+might cause you to update. That's... fun, I hope 😜.
 
 --
 
