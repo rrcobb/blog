@@ -132,7 +132,7 @@ class Template extends React.Component {
         className="container"
         style={{
           margin: '0 auto',
-          width: rhythm(28),
+          maxWidth: rhythm(28),
           padding: `0 ${rhythm(0.5)}`,
           flex: 1,
         }}
