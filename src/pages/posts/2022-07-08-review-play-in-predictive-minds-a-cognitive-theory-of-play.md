@@ -32,8 +32,8 @@ theory-mills by lumping everything minds do under the big heading "prediction".
 
 ## Today's Paper
 
-Today's paper is [Play in Predictive Minds: A Cognitive Theory of
-Play](/play-in-predictive-minds.pdf) by Andersen, Kiverstein, Miller, & 
+Today's paper is [Play in Predictive Minds: A Cognitive Theory of Play](/play-in-predictive-minds.pdf) 
+by Andersen, Kiverstein, Miller, & 
 Roepstorff (2022). From the title and my intro, you can guess that it's about
 play and the PP model.
 
@@ -128,8 +128,7 @@ Also, I'm struggling to picture the non-playful condition here. Telling adults t
 build LEGO ducks seems inherently playful! Maybe they recruited this guy as an
 experimenter.
 
-![Office Spaces's Lumberg asks you to come in on Sunday to make LEGO
-ducks](/lego-lumberg.jpeg)
+![Office Spaces's Lumberg asks you to come in on Sunday to make LEGO ducks](./lego-lumberg.jpeg)
 
 > In sum, belief-violation, ambiguity and novelty provide children with learning opportunities to improve their intuitive theories of the world and its causal workings.
 
