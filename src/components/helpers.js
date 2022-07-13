@@ -12,7 +12,7 @@ export const Tag = ({tag, text}) => (
         backgroundColor: '#c1dc95',
         color: '#406d45',
         padding: 3,
-        margin: 5,
+        margin: '5px 5px 5px 0',
         fontFamily: 'monospace',
         textShadow: 'none',
         textDecoration: 'underline',
@@ -89,15 +89,16 @@ export const Post = ({node}) => {
     <div
       style={{
         display: 'flex',
-        alignItems: 'center',
-        margin: `0 ${rhythm(0.5)}`,
-        width: `max-content`,
+        flexDirection: 'column',
+        alignItems: 'flex-start',
+        margin: `${rhythm(0.5)} 0`,
+        width: '100%',
       }}
     >
-      <p style={{margin: rhythm(0.25), width: rhythm(8)}}>
+      <Link to={node.fields.slug}>{title}</Link>
+      <p style={{margin: 0, width: rhythm(4), ...scale(-1/5) }}>
         {node.frontmatter.date}
       </p>
-      <Link to={node.fields.slug}>{title}</Link>
     </div>
   );
 };
@@ -108,7 +109,7 @@ export class Foldable extends React.Component {
   render() {
     return <React.Fragment>
       <span style={{ cursor: 'pointer' }} onClick={() => this.setState({ show: !this.state.show })}>
-        {this.props.label}: <a>{this.state.show ? "Hide" : "Show"}</a>
+        {this.props.label} <a style={{...scale(-1/5)}}>{this.state.show ? "(Hide)" : "(Show)"}</a>
       </span>
       <div>
         {this.state.show ? this.props.children : null}
@@ -121,11 +122,11 @@ export class PostList extends React.Component {
   render() {
     let { posts } = this.props;
     return (
-      <React.Fragment>
+      <div style={{marginBottom: rhythm(1)}}> 
         {posts.map(({ node }) => (
           <Post key={node.fields.slug} node={node} />
         ))}
-      </React.Fragment>
+      </div>
     );
   }
 }

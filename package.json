@@ -42,8 +42,7 @@
     "react-helmet": "6.1.0",
     "react-typography": "^0.16.20",
     "serve": "13.0.2",
-    "typography": "^0.16.21",
-    "typography-theme-fairy-gates": "0.16.19"
+    "typography": "^0.16.21"
   },
   "devDependencies": {
     "eslint": "^8.5.0",

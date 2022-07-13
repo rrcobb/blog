@@ -4,7 +4,7 @@ import {Link} from 'gatsby';
 
 export default function Footer() {
   return (
-    <div style={{flexShrink: 0, marginBottom: rhythm(1), textAlign: 'center'}}>
+    <div style={{flexShrink: 0, marginTop: rhythm(1), paddingBottom: rhythm(1), textAlign: 'center'}}>
       <hr />
       <span>
         🤓😽 <Link to="/about">Rob Cobb</Link>

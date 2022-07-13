@@ -1,5 +1,5 @@
 import Typography from 'typography';
-import Theme from 'typography-theme-fairy-gates';
+let Theme = {}
 
 // Headers = Lora
 // Body = Source Sans Pro
@@ -15,6 +15,8 @@ Theme.googleFonts = [
 ];
 Theme.headerFontFamily = ["Lora", "serif"];
 Theme.bodyFontFamily = ["Source Sans Pro", "sans-serif"];
+Theme.baseLineHeight = 1.35
+Theme.baseFontSize = "18px"
 
 Theme.overrideThemeStyles = ({rhythm, adjustFontSizeTo}, options) => ({
   'ul li': {
@@ -51,10 +53,12 @@ Theme.overrideThemeStyles = ({rhythm, adjustFontSizeTo}, options) => ({
     marginBottom: rhythm(0.25),
   },
   blockquote: {
-    ...adjustFontSizeTo('18px'),
-    "font-style": 'normal',
+    borderLeft: `${rhythm(6 / 16)} solid #1ca086`,
+    color: `hsla(0,0%,0%,0.7)`,
+    lineHeight: 1.45,
     "background-color": "hsla(0, 0%, 95%, 1)",
-    padding: rhythm(0.5)
+    padding: rhythm(0.75),
+    marginLeft: 0,
   }
 });
 
