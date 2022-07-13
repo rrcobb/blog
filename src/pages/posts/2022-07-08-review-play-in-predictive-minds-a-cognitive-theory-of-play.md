@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Play in Predictive Minds: A Cognitive Theory of Play"
+title: "Play in Predictive Minds: A Cognitive Theory of Play (2022)"
 description: A new paper about play and the predictive processing model of cognitive behavior
 date: 2022-07-08T12:04:06-06:00
 tags: [learning, paper summary, review, theory of instruction]
@@ -11,7 +11,7 @@ _Are you PP-pilled?_
 The Predictive Processing (PP) model is an awesome account of cognition. It's a unified
 theory of psychology and neuroscience, it seems to have strong
 theoretical and empirical support, and it tries to explain an ambitious 
-eternal question: 'how do minds work?'.
+eternal question: **how do minds work?**
 
 What minds do is _predict_. They predict their sensory 
 inputs, and that allows them to _ignore_ most of the actual sensory data. They 
@@ -253,14 +253,18 @@ Short term trades off against the long term.
 > Children may, for example, experience surprise in the short term when playing with the bathroom faucet (signifying that their predictions have been violated), but this may reduce the amount of prediction errors associated with using the faucet in the long term.
 
 It's so fun for me to mentally contrast the seriousness of the fancy academic paper
-with the subject. "Kids playing with the faucet" is a vivid and relatable
+with the subject. 
+
+"Kids playing with the faucet" is a vivid and relatable
 example, I'm just laughing thinking of them with clipboards watching kids turn
 the water on and off and saying things like "hmmmm, little Mary may be increasing her 
 prediction error in the _short term_, but her behavior may be part of a strategy
 that minimizes prediction error in the _long term_" and like, pushing their
-glasses up their nose nerdily. (note: I am a nerd and push my glasses up my nose
+glasses up their nose nerdily. 
+
+(NB: I am a nerd and push my glasses up my nose
 after saying ironically obtuse shit like this, no knock on the authors, who I
-assume are 20/20 and normal sounding humans at home).
+assume have 20/20 vision and are normal sounding humans at home).
 
 > The overall objective of active inference is to reduce prediction error over time, and sometimes meeting this objective calls for an agent to gain new information so as to reduce its uncertainty. This means that **novel or ambiguous stimuli**, which may at the point of first encounter be some what unpredictable, are also **rendered instantly attractive, because they represent “expected surprise” or “uncertainty”**
 
@@ -311,20 +315,27 @@ learning is really quick...
 
 > an answer to the question of why play is rewarding and fun. In play the agent is drawn to new surprising information that is neither too complex and chaotic, nor too simple as to promise only meager, uninteresting advances in learning. Surprising situations that fall within this sweet spot will allow the agent to do better than expected at reducing error, which, in turn, feels good.
 
-'Updating the model faster than expected' is the thing that feels like fun.
+'Reducing error faster than expected' is the thing that feels like fun.
+
+That's the case whether the reduction in error comes from mental updates or from actions.
 
 > Alternatively, in play, agents may attempt to make the surprising reality conform to their predictions. In short, play is fun because it allows for the discovery of new and improved strategies for rapid prediction error reduction either through learning and forming new predictions or by making the world conform to our predictions
 
-Okay, so maybe this is the answer for why winning feels good? Acting to make the
-world conform to our (predictions/desires) is satisfying. The thing where PP
-blurs the boundary between a desire and a prediction shows up here; we have
-different words for 'goal' and 'expectation', but PP doesn't think those are
-really so different in the brain. 
+So maybe this explains why winning feels good? 
 
+Acting to make the world conform to our (predictions/desires) is satisfying. 
 When you win, you are reducing actual predictive error, because you make the 
 world conform to your expectation. "Faster than expectation" here might 
 correspond to winning in situations that were unlikely or more challenging; 
 beating the big boss is more fun than beating the little grunt.
+
+The thing where PP blurs the boundary between a desire and a prediction shows up 
+here. Normally, we use different words for 'goal' and 'expectation', but PP 
+doesn't model those super differently in the brain. 
+
+(Note: the authors have an upcoming paper _Mastering uncertainty: A predictive
+processing account of enjoying uncertain success in video game play_ which
+sounds like it will explore this topic more. I'm pretty excited for it!)
 
 ## Getting to the Goldilocks point
 
@@ -351,7 +362,7 @@ I _love_ this quote. "Epistemic foraging" and "epistemic farming" are so evocati
 
 > As they play, humans in general, and children in particular, sometimes deliberately forge error-inducing environments, in order to allow for the further exploration of productive surprises.
 
-With one hand tied behind my back!
+With one arm behind my back!
 
 It's funny to think of some games that are basically just this dynamic.
 
@@ -388,7 +399,7 @@ but okay here's a few:
 
 > [Rough and Tumble play] is very often characterized by some form of self-handicapping behavior, especially in cases involving unequally strong partners (Pellegrini, 2006). For example, when an adult and a child play-fight, the adult may sit on his knees and maybe keep one arm behind his back
 
-With one arm behind my back!
+With one arm behind my back! Wow, I really feel vindicated.
 
 > clowning and teasing can take endless forms, but what these forms share is a violation of normal expected patterns of social life
 
@@ -451,10 +462,12 @@ successful pacing looks like!
 **If you've tuned your difficulty appropriately, learning
 will feel like playing**.
 
-Boredom and frustration are signals that the design is too easy (or not novel 
-enough) or too hard. If you tune the pace so that the learner's brain expects to
-learn quickly, then they will feel curious. If they are currently learning 
-quickly, that will feel fun to them.
+Boredom and frustration are signals that the design is too easy, too hard, or 
+not novel enough. If the learner's brain expects to learn quickly, then they 
+will feel curious. If they are currently learning quickly, that will feel fun 
+to them.
+
+**Learner's emotional reaction is a signal of how well-tuned a challenge is**
 
 > we speculate that proneness to boredom and a proclivity to play may act as a creative stimulus for cultural innovation
 
@@ -489,3 +502,7 @@ That's my idea of a good time 😉
 Hope this was your idea of a good time too! If it was, let's collaboratively reduce
 error for each other 😅. Message me what you think, or share the link with a
 friend.
+
+_Thanks to Marc Anderson for draft feedback, especially pointing out where I had
+confused a model update with prediction error reduction. Those are related, but
+not the same thing! Remaining errors or misleading explanations are all mine._
