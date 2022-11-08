@@ -6,6 +6,8 @@ date: 2019-02-10T14:49:47-05:00
 tags: [Rust, Math, Kata]
 ---
 
+> Edit Nov 8 2022: a reader [Yancy](http://yancy.lol/) helpfully pointed out a key error in this post. I had a typo in one of the calculations, which hid a deeper issue with the way that I was choosing the primitive roots for the key exchange. I've updated the post to fix the issue. Yancy's writeup is here: http://yancy.lol/rust/2022/10/22/primitive-roots-matter.html. Thanks Yancy!
+
 # Rust
 
 I've been trying to learn [Rust](https://www.rust-lang.org/) for a little while here and there, and I've started to pick up some momentum. Lots of nice things about the language -- it's got an awesome community, a relatively consolidated set of resources / best practices / documentation / tooling, and the language itself is really friendly for a systems programming language. Compared to how much I had to fight C back in the day (or even Java), Rust is more expressive, safer, easier to use, and just as powerful.
@@ -73,48 +75,51 @@ Two cool facts about modular exponentiation in particular make our key exchange 
 
 So, how does this modular exponent line up with the keys in the story above? And how does this protect us from snoops?
 
-We choose some big prime numbers to use as our **base** and our **modulus**. This helps ensure that there aren't any math tricks an attacker could use to make it easy to find our key. When we each choose a secret, we use that as the exponent and do modular exponentiation. The number that comes out is our shareable number, that the snoop can't crack -- even if they know the primes that were used to generate it.
+We choose a big prime number to use as our **modulus**, and a [**primitive root**](https://en.wikipedia.org/wiki/Primitive_root_modulo_n) of that prime to use as our base. This helps ensure that there aren't any math tricks an attacker could use to make it easy to find our key. When we each choose a secret, we use that as the exponent and do modular exponentiation. The number that comes out is our shareable number, that the snoop can't crack -- even if they know the primes that were used to generate it.
 
-- prime 1: modulus
-- prime 2: base
+- prime: modulus
+- primitive root: base
 - secret: exponent
 - shareable number: `rust±(base ^ exponent) % modulus`
 
 Those cool facts of number theory mean that we can generate this number quickly, but even if someone has this number and the two primes, they can't go backwards and find our secret. Here's an example:
 
-- prime 1 (modulus): `rust±941`
-- prime 2 (base): `rust±631`
+- prime (modulus): `rust±941`
+- primitive root of 941 (base): `rust±603`
 - secret: I choose `rust±289`
-- shareable number: `rust±(631 ^ 289) % 941 = 854`
+- shareable number: `rust±(603 ^ 289) % 941 = 460`
 
-So, I would send over `rust±941`, `rust±631`, and `rust±854` to you, and even with those numbers, a snoop couldn't figure out that my secret was `rust±289`. 
+So, I would send over `rust±941`, `rust±603`, and `rust±460` to you, and even if they intercepted those numbers, a snoop couldn't figure out that my secret was `rust±289`. 
 
 You would do something similar:
 
 - prime 1 (modulus): `rust±941`
-- prime 2 (base): `rust±631`
+- prime 2 (base): `rust±603`
 - secret (exponent): you choose `rust±523`
-- shareable number: `rust±(631 ^ 523) % 941 = 124`
+- shareable number: `rust±(603 ^ 523) % 941 = 622`
 
-and send back `rust±124`. 
+and send back `rust±622`. 
 
 Then, we could each do another modular exponentiation, and end up with the same secret key, with the snoop none the wiser.
 
 Me: 
 
-- modulus: same old prime, `rust±941`
-- base: your secret, `rust±124`
+- modulus: same prime, `rust±941`
+- base: your message, `rust±622`
 - exponent: my secret, `rust±289`
-- shared key: `rust±(124 ^ 289) % 941 = 349`
+- shared key: `rust±(622 ^ 289) % 941 = 17`
 
 You:
 
-- modulus: same old prime, `rust±941`
-- base: my secret, `rust±289`
-- exponent: your secret, `rust±124`
-- shared key: `rust±(289 ^ 124) % 941 = 349`
+- modulus: same prime, `rust±941`
+- base: my message, `rust±460`
+- exponent: your secret, `rust±523`
+- shared key: `rust±(460 ^ 523) % 941 = 17`
 
-We both end up with the same shared key -- `rust±349` -- without ever sending it in a message. Now, we can use it to encrypt other messages, and we're safe from snooping.
+We both end up with the same shared key -- `rust±17` -- without ever sending it in a message, or exposing our private keys. Now, we can use it to encrypt other messages, and we're safe from snooping.
+
+> Note: I had previously chosen numbers for this that didn't work. The base for
+> first part (where we generate the keys) must be a [**primitive root**](https://en.wikipedia.org/wiki/Primitive_root_modulo_n) of the prime we choose as the modulus. If it's not, the trick won't work!
 
 ## Breaking down the algorithm
 
