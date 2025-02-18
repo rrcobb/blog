@@ -10,10 +10,5 @@
   ],
   "routes": [
     {"src": "^/(.*).html", "headers": {"cache-control": "public,max-age=0,must-revalidate"}, "dest": "$1.html" }
-  ],
-  "build": {
-    "env": {
-      "HEAP_APP_ID": "@heap_app_id"
-    }
-  }
+  ]
 }

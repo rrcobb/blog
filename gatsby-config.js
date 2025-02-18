@@ -50,12 +50,5 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
-    {
-      resolve: 'gatsby-plugin-heap',
-      options: {
-        appId: process.env.HEAP_APP_ID,
-        enableOnDevMode: true, // if 'false', heap will be fired on NODE_ENV=production only
-      },
-    },
   ],
 };
