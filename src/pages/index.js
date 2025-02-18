@@ -15,7 +15,6 @@ class BlogIndex extends React.Component {
       'props.data.site.siteMetadata.description'
     );
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
-    // old posts are more than 2 years old
     const [recent, old] = partition(posts, (post) => (new Date(post.node.frontmatter.date).getFullYear()) > 2015 )
 
     return (

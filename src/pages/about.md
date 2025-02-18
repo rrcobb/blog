@@ -1,7 +1,7 @@
 ---
 title: About
 tags: []
-date: 2021-12-27T18:22:52-08:00
+date: 2025-02-18T12:27:52-08:00
 ---
 
 I'm Rob.
@@ -19,26 +19,24 @@ The best thing about writing online is getting to talk with people. I really lov
 those conversations, so if you read anything here and want to talk, please cold 
 email or dm me on twitter.
 
-I sometimes post updates on my substack newsletter, [CS Education](https://csed.substack.com/).
+I used to have a substack newsletter, [CS Education](https://csed.substack.com/).
+
+My cofounders and I tried starting [Kibo](https://www.kibo.school/), a new university online for young learners in Africa. We couldn't figure out student financing, so we shut it down in 2024. [More reflections here](https://substack.com/home/post/p-150101879). 
 
 --
 
-I live in Washington, DC.
-
-Lately, I've been working on [Kibo](https://www.kibo.school/), a new online
-university for African students. We're building a CS degree first.
-
-Some things I've worked on in the past:
+Some other things I've worked on in the past:
 
 - [Make School](https://makeschool.org/)
 - [SchoolHouse](https://www.getschoolhouse.com/)
 - [Thinkful](https://www.thinkful.com/bootcamp/web-development/)
+- [TripleTen](https://tripleten.com/)
 - [Flatiron School](https://flatironschool.com)
 - [Fin](https://www.fin.com/)
 - [umd.io](https://umd.io/)
 - [TIC Summer Camp](http://ticcamp.com/)
 - [UMD Help Center](https://helpcenterumd.org/)
 
-More at my [github](https://github.com/rrcobb). Also I have a code [playground](//playground.rob.co.bb) with some experiments.
+More at my [github](https://github.com/rrcobb)
 
 You can reach me on Twitter [@robcobbable](https://twitter.com/robcobbable)
