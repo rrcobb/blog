@@ -1,13 +1,6 @@
 {
   "version": 2,
   "alias": ["rob.co.bb"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "public" }
-    }
-  ],
   "routes": [
     {"src": "^/(.*).html", "headers": {"cache-control": "public,max-age=0,must-revalidate"}, "dest": "$1.html" }
   ]
