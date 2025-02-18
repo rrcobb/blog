@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Rob Cobb',
     author: 'Rob Cobb',
-    description: 'blog, experiments, about',
+    description: 'my blog',
     siteUrl: 'https://rob.co.bb/',
   },
   plugins: [
