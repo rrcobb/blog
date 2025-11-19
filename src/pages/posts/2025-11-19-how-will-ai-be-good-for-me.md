@@ -38,4 +38,4 @@ I've spent a lot of time teaching software. It's a nice path to a nice job for a
 
 When my career pendulum arced back into building software, natural questions are "what to build" and "how does it connect" and "what's the throughline connecting these". Making people good at using computers powerfully and making computers good at _being used powerfully_ are how I've been explaining the two sides of the coin to myself.
 
-All that's to say: I recently joined Zo Computer. We're making a personal computer in the cloud, where AI helps you to make software for yourself. Right now, it has files and SMS and email, and you can build and host software with it (even if you don't really know what those things mean, at the start). We're adding more all the time.
+All that's to say: I recently joined [Zo Computer](https://www.zo.computer/). We're making a personal computer in the cloud, where AI helps you to make software for yourself. Right now, it has files and SMS and email, and you can build and host software with it (even if you don't really know what those things mean, at the start). We're adding more all the time.
