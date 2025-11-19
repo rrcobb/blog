@@ -19,9 +19,11 @@ The best thing about writing online is getting to talk with people. I really lov
 those conversations, so if you read anything here and want to talk, please cold 
 email or dm me on twitter.
 
-I used to have a substack newsletter, [CS Education](https://csed.substack.com/).
+I used to have a substack newsletter, [CS Education](https://csed.substack.com/). I guess I still do, but I used to, too.
 
 My cofounders and I tried starting [Kibo](https://www.kibo.school/), a new university online for young learners in Africa. We couldn't figure out student financing, so we shut it down in 2024. [More reflections here](https://substack.com/home/post/p-150101879). 
+
+Now I'm working on [Zo Computer](https://www.zo.computer/).
 
 --
 
@@ -30,7 +32,7 @@ Some other things I've worked on in the past:
 - [Make School](https://makeschool.org/)
 - [SchoolHouse](https://www.getschoolhouse.com/)
 - [Thinkful](https://www.thinkful.com/bootcamp/web-development/)
-- [TripleTen](https://tripleten.com/)
+- [TripleTen](https://tripleten.com/) (briefly, back when they were yandex practicum)
 - [Flatiron School](https://flatironschool.com)
 - [Fin](https://www.fin.com/)
 - [umd.io](https://umd.io/)
